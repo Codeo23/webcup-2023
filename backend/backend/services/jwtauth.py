@@ -12,7 +12,7 @@ from backend.db.dependencies import get_user_db
 from backend.db.models.user_model import UserModel
 from backend.settings import settings
 
-bearer_transport = BearerTransport(tokenUrl="/api/users/auth/jwt/login")
+bearer_transport = BearerTransport(tokenUrl="/users/auth/jwt/login")
 
 
 def get_jwt_strategy() -> JWTStrategy:
