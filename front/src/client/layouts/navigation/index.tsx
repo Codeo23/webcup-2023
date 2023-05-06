@@ -1,5 +1,4 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+
 import { NavigationItem } from './navigationItem'
 import { routePath } from '../../constants/routePath'
 import { useDispatch, useSelector } from 'react-redux'
@@ -22,7 +21,7 @@ export const Navigation = (props: Props) => {
   const dispatch = useDispatch()
   const { theme } = useSelector<RootState>(state => state.theme) as { theme: ThemeType }
   const { i18n } = useTranslation()
-
+  
   return (
     <nav className='navigation'>
       <img src="logo/logo-white.png" alt="logo-white" className='navigation-logo' />

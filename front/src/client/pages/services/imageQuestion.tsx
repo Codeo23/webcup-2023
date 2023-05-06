@@ -35,7 +35,7 @@ export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, lo
         <div className='image-question'>
             <img src='images/back.png' alt='back-services' className='services-back' />
             <div className='video'>
-                <video controls={false} autoPlay loop>
+                <video controls={false} autoPlay loop muted>
                     <source src='video/onirix-dark.mp4' type="video/mp4" />
                 </video>
             </div>
