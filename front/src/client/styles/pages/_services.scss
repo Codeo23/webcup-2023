@@ -2,6 +2,8 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    max-width: 1440px;
+    margin: auto;
 
     &-back {
         height: 80vh;
@@ -60,5 +62,16 @@
             @include theme-aware("color", "text-color2");
 
         }
+    }
+
+    .ellipse {
+        position: absolute;
+        height: 1000px;
+        width: 1000px;
+        border-radius: 50%;
+        background-color: #220101;
+        right: -700px;
+  
+        filter: blur(200px);
     }
 }
