@@ -1,19 +1,13 @@
 from typing import List
 
 from fastapi import APIRouter, Depends
-from fastapi_users import FastAPIUsers
 
 from backend.db.dao.user_dao import UserDAO
 from backend.db.models.relationship import UserModel
-from backend.services.jwtauth import auth_backend, get_user_manager
+from backend.services.jwtauth import auth_backend, fastapi_users
 from backend.web.api.users.schema import UserCreate, UserRead, UserUpdate
 
 router = APIRouter()
-
-fastapi_users = FastAPIUsers[UserModel, int](
-    get_user_manager,
-    [auth_backend],
-)
 
 router.include_router(
     fastapi_users.get_auth_router(auth_backend, requires_verification=True),
