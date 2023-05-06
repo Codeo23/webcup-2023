@@ -4,24 +4,10 @@
     './abstracts/functions',
     './abstracts/variable';
 
-
+@import 
+    'vendors/tailwindcss';
 
 @import './base/reset';
 
 @import 
-    './components/input';
-
-@import 
-    './layouts/auth',
-    './layouts/navigation',
-    './layouts/hero',
-    './layouts/solutions',
-    './layouts/roadmap',
-    './layouts/pricing',
-    './layouts/partners',
-    './layouts/footer';
-
-
-@import 
-    './pages/pages',
-    './pages/services';
+    './pages/client';
