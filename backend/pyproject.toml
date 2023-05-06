@@ -23,6 +23,7 @@ aiomysql = "^0.1.1"
 mysqlclient = "^2.1.1"
 httptools = "^0.5.0"
 fastapi-users = {extras = ["oauth", "sqlalchemy"], version = "^11.0.0"}
+a2wsgi = "^1.7.0"
 
 
 [tool.poetry.dev-dependencies]
