@@ -22,14 +22,9 @@
     }
     .textarea-wrapper {
         @include theme-aware("background", "secondary-color");
-        left: 50%;
-        transform: translateX(-50%);
-        position: absolute;
         box-shadow: 5px 5px 100px black;
-        width: 30vw;
-        bottom: 100px;
+        width: 60%;
         border-radius: 5px;
-
         display: flex;
         align-items: end;
         padding: 0 20px 10px;
@@ -73,5 +68,36 @@
         right: -700px;
   
         filter: blur(200px);
+    }
+
+    .image-none {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20vh;
+        .text-logo {
+            width: 40vh;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 20px;
+            span {
+                position: relative;
+                &::before {
+                    content: " ";
+                    position: absolute;
+                    width: 100px;
+                    height: 3px;
+                    background-color: #CB4946;
+                    bottom: -3px;
+                }
+            }
+        }
+        .textarea-wrapper {
+            margin-top: 50px;
+        }
     }
 }
