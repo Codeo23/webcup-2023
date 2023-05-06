@@ -1,0 +1,13 @@
+@import 
+    './abstracts/colors',
+    './abstracts/mixins',
+    './abstracts/functions',
+    './abstracts/variable';
+
+@import 
+    'vendors/tailwindcss';
+
+@import './base/reset';
+
+@import 
+    './pages/client';

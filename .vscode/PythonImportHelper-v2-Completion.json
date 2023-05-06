@@ -1,0 +1,1829 @@
+[
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Awaitable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncGenerator",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncEngine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_session",
+        "importPath": "backend.db.dependencies",
+        "description": "backend.db.dependencies",
+        "isExtraImport": true,
+        "detail": "backend.db.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_session",
+        "importPath": "backend.db.dependencies",
+        "description": "backend.db.dependencies",
+        "isExtraImport": true,
+        "detail": "backend.db.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_session",
+        "importPath": "backend.db.dependencies",
+        "description": "backend.db.dependencies",
+        "isExtraImport": true,
+        "detail": "backend.db.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_db",
+        "importPath": "backend.db.dependencies",
+        "description": "backend.db.dependencies",
+        "isExtraImport": true,
+        "detail": "backend.db.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_session",
+        "importPath": "backend.db.dependencies",
+        "description": "backend.db.dependencies",
+        "isExtraImport": true,
+        "detail": "backend.db.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "DummyModel",
+        "importPath": "backend.db.models.dummy_model",
+        "description": "backend.db.models.dummy_model",
+        "isExtraImport": true,
+        "detail": "backend.db.models.dummy_model",
+        "documentation": {}
+    },
+    {
+        "label": "DummyModel",
+        "importPath": "backend.db.models.dummy_model",
+        "description": "backend.db.models.dummy_model",
+        "isExtraImport": true,
+        "detail": "backend.db.models.dummy_model",
+        "documentation": {}
+    },
+    {
+        "label": "HistoryModel",
+        "importPath": "backend.db.models.relationship",
+        "description": "backend.db.models.relationship",
+        "isExtraImport": true,
+        "detail": "backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "UserHistory",
+        "importPath": "backend.db.models.relationship",
+        "description": "backend.db.models.relationship",
+        "isExtraImport": true,
+        "detail": "backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "backend.db.models.relationship",
+        "description": "backend.db.models.relationship",
+        "isExtraImport": true,
+        "detail": "backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "backend.db.models.relationship",
+        "description": "backend.db.models.relationship",
+        "isExtraImport": true,
+        "detail": "backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "backend.db.models.relationship",
+        "description": "backend.db.models.relationship",
+        "isExtraImport": true,
+        "detail": "backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "HistoryModel",
+        "importPath": "backend.db.models.relationship",
+        "description": "backend.db.models.relationship",
+        "isExtraImport": true,
+        "detail": "backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "backend.db.models.relationship",
+        "description": "backend.db.models.relationship",
+        "isExtraImport": true,
+        "detail": "backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "importPath": "backend.db.models.relationship",
+        "description": "backend.db.models.relationship",
+        "isExtraImport": true,
+        "detail": "backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "mysql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio.engine",
+        "description": "sqlalchemy.ext.asyncio.engine",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio.engine",
+        "documentation": {}
+    },
+    {
+        "label": "Connection",
+        "importPath": "sqlalchemy.future",
+        "description": "sqlalchemy.future",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.future",
+        "documentation": {}
+    },
+    {
+        "label": "meta",
+        "importPath": "backend.db.meta",
+        "description": "backend.db.meta",
+        "isExtraImport": true,
+        "detail": "backend.db.meta",
+        "documentation": {}
+    },
+    {
+        "label": "meta",
+        "importPath": "backend.db.meta",
+        "description": "backend.db.meta",
+        "isExtraImport": true,
+        "detail": "backend.db.meta",
+        "documentation": {}
+    },
+    {
+        "label": "load_all_models",
+        "importPath": "backend.db.models",
+        "description": "backend.db.models",
+        "isExtraImport": true,
+        "detail": "backend.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "isExtraImport": true,
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "isExtraImport": true,
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "isExtraImport": true,
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "isExtraImport": true,
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "isExtraImport": true,
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "isExtraImport": true,
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "backend.settings",
+        "description": "backend.settings",
+        "isExtraImport": true,
+        "detail": "backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy.sql.sqltypes",
+        "description": "sqlalchemy.sql.sqltypes",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.sqltypes",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "backend.db.base",
+        "description": "backend.db.base",
+        "isExtraImport": true,
+        "detail": "backend.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "backend.db.base",
+        "description": "backend.db.base",
+        "isExtraImport": true,
+        "detail": "backend.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyBaseUserTable",
+        "importPath": "fastapi_users_db_sqlalchemy",
+        "description": "fastapi_users_db_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "fastapi_users_db_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyUserDatabase",
+        "importPath": "fastapi_users.db",
+        "description": "fastapi_users.db",
+        "isExtraImport": true,
+        "detail": "fastapi_users.db",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "starlette.requests",
+        "description": "starlette.requests",
+        "isExtraImport": true,
+        "detail": "starlette.requests",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPIUsers",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "IntegerIDMixin",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "schemas",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationBackend",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "BearerTransport",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "JWTStrategy",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncClient",
+        "importPath": "httpx",
+        "description": "httpx",
+        "isExtraImport": true,
+        "detail": "httpx",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "starlette",
+        "description": "starlette",
+        "isExtraImport": true,
+        "detail": "starlette",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "DummyDAO",
+        "importPath": "backend.db.dao.dummy_dao",
+        "description": "backend.db.dao.dummy_dao",
+        "isExtraImport": true,
+        "detail": "backend.db.dao.dummy_dao",
+        "documentation": {}
+    },
+    {
+        "label": "DummyDAO",
+        "importPath": "backend.db.dao.dummy_dao",
+        "description": "backend.db.dao.dummy_dao",
+        "isExtraImport": true,
+        "detail": "backend.db.dao.dummy_dao",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi.param_functions",
+        "description": "fastapi.param_functions",
+        "isExtraImport": true,
+        "detail": "fastapi.param_functions",
+        "documentation": {}
+    },
+    {
+        "label": "DummyModelDTO",
+        "importPath": "backend.web.api.dummy.schema",
+        "description": "backend.web.api.dummy.schema",
+        "isExtraImport": true,
+        "detail": "backend.web.api.dummy.schema",
+        "documentation": {}
+    },
+    {
+        "label": "DummyModelInputDTO",
+        "importPath": "backend.web.api.dummy.schema",
+        "description": "backend.web.api.dummy.schema",
+        "isExtraImport": true,
+        "detail": "backend.web.api.dummy.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "backend.web.api.echo.schema",
+        "description": "backend.web.api.echo.schema",
+        "isExtraImport": true,
+        "detail": "backend.web.api.echo.schema",
+        "documentation": {}
+    },
+    {
+        "label": "HistoryDAO",
+        "importPath": "backend.db.dao.history_dao",
+        "description": "backend.db.dao.history_dao",
+        "isExtraImport": true,
+        "detail": "backend.db.dao.history_dao",
+        "documentation": {}
+    },
+    {
+        "label": "HistoryRead",
+        "importPath": "backend.web.api.history.schema",
+        "description": "backend.web.api.history.schema",
+        "isExtraImport": true,
+        "detail": "backend.web.api.history.schema",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "backend.services.jwtauth",
+        "description": "backend.services.jwtauth",
+        "isExtraImport": true,
+        "detail": "backend.services.jwtauth",
+        "documentation": {}
+    },
+    {
+        "label": "auth_backend",
+        "importPath": "backend.services.jwtauth",
+        "description": "backend.services.jwtauth",
+        "isExtraImport": true,
+        "detail": "backend.services.jwtauth",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_users",
+        "importPath": "backend.services.jwtauth",
+        "description": "backend.services.jwtauth",
+        "isExtraImport": true,
+        "detail": "backend.services.jwtauth",
+        "documentation": {}
+    },
+    {
+        "label": "UserDAO",
+        "importPath": "backend.db.dao.user_dao",
+        "description": "backend.db.dao.user_dao",
+        "isExtraImport": true,
+        "detail": "backend.db.dao.user_dao",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "backend.web.api.users.schema",
+        "description": "backend.web.api.users.schema",
+        "isExtraImport": true,
+        "detail": "backend.web.api.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserRead",
+        "importPath": "backend.web.api.users.schema",
+        "description": "backend.web.api.users.schema",
+        "isExtraImport": true,
+        "detail": "backend.web.api.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "backend.web.api.users.schema",
+        "description": "backend.web.api.users.schema",
+        "isExtraImport": true,
+        "detail": "backend.web.api.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi.routing",
+        "description": "fastapi.routing",
+        "isExtraImport": true,
+        "detail": "fastapi.routing",
+        "documentation": {}
+    },
+    {
+        "label": "dummy",
+        "importPath": "backend.web.api",
+        "description": "backend.web.api",
+        "isExtraImport": true,
+        "detail": "backend.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "echo",
+        "importPath": "backend.web.api",
+        "description": "backend.web.api",
+        "isExtraImport": true,
+        "detail": "backend.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "history",
+        "importPath": "backend.web.api",
+        "description": "backend.web.api",
+        "isExtraImport": true,
+        "detail": "backend.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "monitoring",
+        "importPath": "backend.web.api",
+        "description": "backend.web.api",
+        "isExtraImport": true,
+        "detail": "backend.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "users",
+        "importPath": "backend.web.api",
+        "description": "backend.web.api",
+        "isExtraImport": true,
+        "detail": "backend.web.api",
+        "documentation": {}
+    },
+    {
+        "label": "UJSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "importPath": "backend.web.api.router",
+        "description": "backend.web.api.router",
+        "isExtraImport": true,
+        "detail": "backend.web.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "register_shutdown_event",
+        "importPath": "backend.web.lifetime",
+        "description": "backend.web.lifetime",
+        "isExtraImport": true,
+        "detail": "backend.web.lifetime",
+        "documentation": {}
+    },
+    {
+        "label": "register_startup_event",
+        "importPath": "backend.web.lifetime",
+        "description": "backend.web.lifetime",
+        "isExtraImport": true,
+        "detail": "backend.web.lifetime",
+        "documentation": {}
+    },
+    {
+        "label": "create_database",
+        "importPath": "backend.db.utils",
+        "description": "backend.db.utils",
+        "isExtraImport": true,
+        "detail": "backend.db.utils",
+        "documentation": {}
+    },
+    {
+        "label": "drop_database",
+        "importPath": "backend.db.utils",
+        "description": "backend.db.utils",
+        "isExtraImport": true,
+        "detail": "backend.db.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_app",
+        "importPath": "backend.web.application",
+        "description": "backend.web.application",
+        "isExtraImport": true,
+        "detail": "backend.web.application",
+        "documentation": {}
+    },
+    {
+        "label": "get_app",
+        "importPath": "backend.web.application",
+        "description": "backend.web.application",
+        "isExtraImport": true,
+        "detail": "backend.web.application",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "gettempdir",
+        "importPath": "tempfile",
+        "description": "tempfile",
+        "isExtraImport": true,
+        "detail": "tempfile",
+        "documentation": {}
+    },
+    {
+        "label": "URL",
+        "importPath": "yarl",
+        "description": "yarl",
+        "isExtraImport": true,
+        "detail": "yarl",
+        "documentation": {}
+    },
+    {
+        "label": "ASGIMiddleware",
+        "importPath": "a2wsgi",
+        "description": "a2wsgi",
+        "isExtraImport": true,
+        "detail": "a2wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "DummyDAO",
+        "kind": 6,
+        "importPath": "backend.backend.db.dao.dummy_dao",
+        "description": "backend.backend.db.dao.dummy_dao",
+        "peekOfCode": "class DummyDAO:\n    \"\"\"Class for accessing dummy table.\"\"\"\n    def __init__(self, session: AsyncSession = Depends(get_db_session)):\n        self.session = session\n    async def create_dummy_model(self, name: str) -> None:\n        \"\"\"\n        Add single dummy to session.\n        :param name: name of a dummy.\n        \"\"\"\n        self.session.add(DummyModel(name=name))",
+        "detail": "backend.backend.db.dao.dummy_dao",
+        "documentation": {}
+    },
+    {
+        "label": "HistoryDAO",
+        "kind": 6,
+        "importPath": "backend.backend.db.dao.history_dao",
+        "description": "backend.backend.db.dao.history_dao",
+        "peekOfCode": "class HistoryDAO:\n    \"\"\"Class for accessing History table.\"\"\"\n    def __init__(self, session: AsyncSession = Depends(get_db_session)):\n        self.session = session\n    # create a dream history\n    async def create_dream_history(\n        self,\n        dream: str,\n        interpretation: str,\n        user_id: int,",
+        "detail": "backend.backend.db.dao.history_dao",
+        "documentation": {}
+    },
+    {
+        "label": "UserDAO",
+        "kind": 6,
+        "importPath": "backend.backend.db.dao.user_dao",
+        "description": "backend.backend.db.dao.user_dao",
+        "peekOfCode": "class UserDAO:\n    \"\"\"Class for accessing user table.\"\"\"\n    def __init__(self, session: AsyncSession = Depends(get_db_session)):\n        self.session = session\n    async def get_all_users(self, limit: int, offset: int) -> List[UserModel]:\n        \"\"\"\n        Get all user models with limit/offset pagination.\n        :param limit: limit of users.\n        :param offset: offset of users.\n        :return: stream of users.",
+        "detail": "backend.backend.db.dao.user_dao",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "peekOfCode": "def upgrade() -> None:\n    pass\ndef downgrade() -> None:\n    pass",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "peekOfCode": "def downgrade() -> None:\n    pass",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "peekOfCode": "revision = \"819cbf6e030b\"\ndown_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    pass\ndef downgrade() -> None:\n    pass",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "peekOfCode": "down_revision = None\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    pass\ndef downgrade() -> None:\n    pass",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    pass\ndef downgrade() -> None:\n    pass",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "peekOfCode": "depends_on = None\ndef upgrade() -> None:\n    pass\ndef downgrade() -> None:\n    pass",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-53_819cbf6e030b",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"dummy_model\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=True),\n        sa.PrimaryKeyConstraint(\"id\"),\n    )\n    # ### end Alembic commands ###\ndef downgrade() -> None:",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table(\"dummy_model\")\n    # ### end Alembic commands ###",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "peekOfCode": "revision = \"2b7380507a71\"\ndown_revision = \"819cbf6e030b\"\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"dummy_model\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=True),",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "peekOfCode": "down_revision = \"819cbf6e030b\"\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"dummy_model\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=True),\n        sa.PrimaryKeyConstraint(\"id\"),",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"dummy_model\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=True),\n        sa.PrimaryKeyConstraint(\"id\"),\n    )",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "description": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "peekOfCode": "depends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"dummy_model\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=True),\n        sa.PrimaryKeyConstraint(\"id\"),\n    )\n    # ### end Alembic commands ###",
+        "detail": "backend.backend.db.migrations.versions.2021-08-16-16-55_2b7380507a71",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "description": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "peekOfCode": "def upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"users\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=False),\n        sa.Column(\"email\", sa.String(length=320), nullable=False),\n        sa.Column(\"hashed_password\", sa.String(length=1024), nullable=False),\n        sa.Column(\"is_active\", sa.Boolean(), nullable=False),\n        sa.Column(\"is_superuser\", sa.Boolean(), nullable=False),",
+        "detail": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "description": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "peekOfCode": "def downgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column(\n        \"dummy_model\",\n        \"name\",\n        existing_type=mysql.VARCHAR(collation=\"utf8mb3_unicode_ci\", length=200),\n        nullable=True,\n    )\n    op.drop_table(\"user_history\")\n    op.drop_table(\"history\")",
+        "detail": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "documentation": {}
+    },
+    {
+        "label": "revision",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "description": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "peekOfCode": "revision = \"2454deec30a8\"\ndown_revision = \"2b7380507a71\"\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"users\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=False),",
+        "detail": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "documentation": {}
+    },
+    {
+        "label": "down_revision",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "description": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "peekOfCode": "down_revision = \"2b7380507a71\"\nbranch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"users\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=False),\n        sa.Column(\"email\", sa.String(length=320), nullable=False),",
+        "detail": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "documentation": {}
+    },
+    {
+        "label": "branch_labels",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "description": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "peekOfCode": "branch_labels = None\ndepends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"users\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=False),\n        sa.Column(\"email\", sa.String(length=320), nullable=False),\n        sa.Column(\"hashed_password\", sa.String(length=1024), nullable=False),",
+        "detail": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "documentation": {}
+    },
+    {
+        "label": "depends_on",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "description": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "peekOfCode": "depends_on = None\ndef upgrade() -> None:\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table(\n        \"users\",\n        sa.Column(\"id\", sa.Integer(), autoincrement=True, nullable=False),\n        sa.Column(\"name\", sa.String(length=200), nullable=False),\n        sa.Column(\"email\", sa.String(length=320), nullable=False),\n        sa.Column(\"hashed_password\", sa.String(length=1024), nullable=False),\n        sa.Column(\"is_active\", sa.Boolean(), nullable=False),",
+        "detail": "backend.backend.db.migrations.versions.2023-05-06-20-07_2454deec30a8",
+        "documentation": {}
+    },
+    {
+        "label": "do_run_migrations",
+        "kind": 2,
+        "importPath": "backend.backend.db.migrations.env",
+        "description": "backend.backend.db.migrations.env",
+        "peekOfCode": "def do_run_migrations(connection: Connection) -> None:\n    \"\"\"\n    Run actual sync migrations.\n    :param connection: connection to the database.\n    \"\"\"\n    context.configure(connection=connection, target_metadata=target_metadata)\n    with context.begin_transaction():\n        context.run_migrations()\nasync def run_migrations_online() -> None:\n    \"\"\"",
+        "detail": "backend.backend.db.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.env",
+        "description": "backend.backend.db.migrations.env",
+        "peekOfCode": "config = context.config\nload_all_models()\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "backend.backend.db.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.env",
+        "description": "backend.backend.db.migrations.env",
+        "peekOfCode": "target_metadata = meta\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\nasync def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "backend.backend.db.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "loop",
+        "kind": 5,
+        "importPath": "backend.backend.db.migrations.env",
+        "description": "backend.backend.db.migrations.env",
+        "peekOfCode": "loop = asyncio.get_event_loop()\nif context.is_offline_mode():\n    task = run_migrations_offline()\nelse:\n    task = run_migrations_online()\nloop.run_until_complete(task)",
+        "detail": "backend.backend.db.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "DummyModel",
+        "kind": 6,
+        "importPath": "backend.backend.db.models.dummy_model",
+        "description": "backend.backend.db.models.dummy_model",
+        "peekOfCode": "class DummyModel(Base):\n    \"\"\"Model for demo purpose.\"\"\"\n    __tablename__ = \"dummy_model\"\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)\n    name: Mapped[str] = mapped_column(String(length=200))  # noqa: WPS432",
+        "detail": "backend.backend.db.models.dummy_model",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "kind": 6,
+        "importPath": "backend.backend.db.models.relationship",
+        "description": "backend.backend.db.models.relationship",
+        "peekOfCode": "class UserModel(SQLAlchemyBaseUserTable[int], Base):\n    \"\"\"Model for users.\"\"\"\n    __tablename__ = \"users\"\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)\n    name: Mapped[str] = mapped_column(String(length=200))  # noqa: WPS432\n    history: Mapped[List[\"HistoryModel\"]] = relationship(secondary=\"user_history\", back_populates=\"user\")\nclass HistoryModel(Base):\n    \"\"\"History model.\"\"\"\n    __tablename__ = \"history\"\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)",
+        "detail": "backend.backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "HistoryModel",
+        "kind": 6,
+        "importPath": "backend.backend.db.models.relationship",
+        "description": "backend.backend.db.models.relationship",
+        "peekOfCode": "class HistoryModel(Base):\n    \"\"\"History model.\"\"\"\n    __tablename__ = \"history\"\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)\n    dream: Mapped[str] = mapped_column(String(length=200))\n    interpretation: Mapped[str] = mapped_column(String(length=200))\n    date: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)\n    user_id: Mapped[int] = mapped_column(ForeignKey(\"users.id\"))\n    user: Mapped[\"UserModel\"] = relationship(secondary=\"user_history\", back_populates=\"history\")\nclass UserHistory(Base):",
+        "detail": "backend.backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "UserHistory",
+        "kind": 6,
+        "importPath": "backend.backend.db.models.relationship",
+        "description": "backend.backend.db.models.relationship",
+        "peekOfCode": "class UserHistory(Base):\n    \"\"\" User's History model. \"\"\"\n    __tablename__ = \"user_history\"\n    user_id = Column(ForeignKey(\"users.id\"), primary_key=True)\n    history_id = Column(ForeignKey(\"history.id\"), primary_key=True)",
+        "detail": "backend.backend.db.models.relationship",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "backend.backend.db.base",
+        "description": "backend.backend.db.base",
+        "peekOfCode": "class Base(DeclarativeBase):\n    \"\"\"Base for all models.\"\"\"\n    metadata = meta",
+        "detail": "backend.backend.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "meta",
+        "kind": 5,
+        "importPath": "backend.backend.db.meta",
+        "description": "backend.backend.db.meta",
+        "peekOfCode": "meta = sa.MetaData()",
+        "detail": "backend.backend.db.meta",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "backend.backend.services.jwtauth",
+        "description": "backend.backend.services.jwtauth",
+        "peekOfCode": "class UserManager(IntegerIDMixin, BaseUserManager[UserModel, int]):\n    reset_password_token_secret = settings.SECRET_KEY\n    verification_token_secret = settings.SECRET_KEY\n    async def on_after_register(\n        self,\n        user: UserModel,\n        request: Optional[Request] = None,\n    ):\n        print(f\"User {user.id} has registered.\")\n    async def on_after_forgot_password(",
+        "detail": "backend.backend.services.jwtauth",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt_strategy",
+        "kind": 2,
+        "importPath": "backend.backend.services.jwtauth",
+        "description": "backend.backend.services.jwtauth",
+        "peekOfCode": "def get_jwt_strategy() -> JWTStrategy:\n    return JWTStrategy(secret=settings.SECRET_KEY, lifetime_seconds=3600)\nauth_backend = AuthenticationBackend(\n    name=\"jwt\",\n    transport=bearer_transport,\n    get_strategy=get_jwt_strategy,\n)\nclass UserManager(IntegerIDMixin, BaseUserManager[UserModel, int]):\n    reset_password_token_secret = settings.SECRET_KEY\n    verification_token_secret = settings.SECRET_KEY",
+        "detail": "backend.backend.services.jwtauth",
+        "documentation": {}
+    },
+    {
+        "label": "bearer_transport",
+        "kind": 5,
+        "importPath": "backend.backend.services.jwtauth",
+        "description": "backend.backend.services.jwtauth",
+        "peekOfCode": "bearer_transport = BearerTransport(tokenUrl=\"/api/users/auth/jwt/login\")\ndef get_jwt_strategy() -> JWTStrategy:\n    return JWTStrategy(secret=settings.SECRET_KEY, lifetime_seconds=3600)\nauth_backend = AuthenticationBackend(\n    name=\"jwt\",\n    transport=bearer_transport,\n    get_strategy=get_jwt_strategy,\n)\nclass UserManager(IntegerIDMixin, BaseUserManager[UserModel, int]):\n    reset_password_token_secret = settings.SECRET_KEY",
+        "detail": "backend.backend.services.jwtauth",
+        "documentation": {}
+    },
+    {
+        "label": "auth_backend",
+        "kind": 5,
+        "importPath": "backend.backend.services.jwtauth",
+        "description": "backend.backend.services.jwtauth",
+        "peekOfCode": "auth_backend = AuthenticationBackend(\n    name=\"jwt\",\n    transport=bearer_transport,\n    get_strategy=get_jwt_strategy,\n)\nclass UserManager(IntegerIDMixin, BaseUserManager[UserModel, int]):\n    reset_password_token_secret = settings.SECRET_KEY\n    verification_token_secret = settings.SECRET_KEY\n    async def on_after_register(\n        self,",
+        "detail": "backend.backend.services.jwtauth",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_users",
+        "kind": 5,
+        "importPath": "backend.backend.services.jwtauth",
+        "description": "backend.backend.services.jwtauth",
+        "peekOfCode": "fastapi_users = FastAPIUsers[UserModel, int](\n    get_user_manager,\n    [auth_backend],\n)\ncurrent_user = fastapi_users.current_user()",
+        "detail": "backend.backend.services.jwtauth",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "kind": 5,
+        "importPath": "backend.backend.services.jwtauth",
+        "description": "backend.backend.services.jwtauth",
+        "peekOfCode": "current_user = fastapi_users.current_user()",
+        "detail": "backend.backend.services.jwtauth",
+        "documentation": {}
+    },
+    {
+        "label": "DummyModelDTO",
+        "kind": 6,
+        "importPath": "backend.backend.web.api.dummy.schema",
+        "description": "backend.backend.web.api.dummy.schema",
+        "peekOfCode": "class DummyModelDTO(BaseModel):\n    \"\"\"\n    DTO for dummy models.\n    It returned when accessing dummy models from the API.\n    \"\"\"\n    id: int\n    name: str\n    class Config:\n        orm_mode = True\nclass DummyModelInputDTO(BaseModel):",
+        "detail": "backend.backend.web.api.dummy.schema",
+        "documentation": {}
+    },
+    {
+        "label": "DummyModelInputDTO",
+        "kind": 6,
+        "importPath": "backend.backend.web.api.dummy.schema",
+        "description": "backend.backend.web.api.dummy.schema",
+        "peekOfCode": "class DummyModelInputDTO(BaseModel):\n    \"\"\"DTO for creating new dummy model.\"\"\"\n    name: str",
+        "detail": "backend.backend.web.api.dummy.schema",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.backend.web.api.dummy.views",
+        "description": "backend.backend.web.api.dummy.views",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/\", response_model=List[DummyModelDTO])\nasync def get_dummy_models(\n    limit: int = 10,\n    offset: int = 0,\n    dummy_dao: DummyDAO = Depends(),\n) -> List[DummyModel]:\n    \"\"\"\n    Retrieve all dummy objects from the database.\n    :param limit: limit of dummy objects, defaults to 10.",
+        "detail": "backend.backend.web.api.dummy.views",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "backend.backend.web.api.echo.schema",
+        "description": "backend.backend.web.api.echo.schema",
+        "peekOfCode": "class Message(BaseModel):\n    \"\"\"Simple message model.\"\"\"\n    message: str",
+        "detail": "backend.backend.web.api.echo.schema",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.backend.web.api.echo.views",
+        "description": "backend.backend.web.api.echo.views",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/\", response_model=Message)\nasync def send_echo_message(\n    incoming_message: Message,\n) -> Message:\n    \"\"\"\n    Sends echo back to user.\n    :param incoming_message: incoming message.\n    :returns: message same as the incoming.\n    \"\"\"",
+        "detail": "backend.backend.web.api.echo.views",
+        "documentation": {}
+    },
+    {
+        "label": "HistoryRead",
+        "kind": 6,
+        "importPath": "backend.backend.web.api.history.schema",
+        "description": "backend.backend.web.api.history.schema",
+        "peekOfCode": "class HistoryRead(BaseModel):\n    id: int\n    date: str\n    user_id: int\n    dream: str\n    interpretation: str\n    class Config:\n        orm_mode = True\nclass HistoryCreate(BaseModel):\n    dream: str",
+        "detail": "backend.backend.web.api.history.schema",
+        "documentation": {}
+    },
+    {
+        "label": "HistoryCreate",
+        "kind": 6,
+        "importPath": "backend.backend.web.api.history.schema",
+        "description": "backend.backend.web.api.history.schema",
+        "peekOfCode": "class HistoryCreate(BaseModel):\n    dream: str\n    interpretation: str\n    user_id: int\n    class Config:\n        orm_mode = True",
+        "detail": "backend.backend.web.api.history.schema",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.backend.web.api.history.views",
+        "description": "backend.backend.web.api.history.views",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/\", response_model=List[HistoryRead])\nasync def get_all_dreams(\n    limit: int = 10,\n    offset: int = 0,\n    user: UserModel = Depends(current_user),\n    historydao: HistoryDAO = Depends(),\n) -> List[HistoryModel]:\n    \"\"\"Retrieve all dream objects from the database.\n    Args:",
+        "detail": "backend.backend.web.api.history.views",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "backend.backend.web.api.monitoring.views",
+        "description": "backend.backend.web.api.monitoring.views",
+        "peekOfCode": "def health_check() -> None:\n    \"\"\"\n    Checks the health of a project.\n    It returns 200 if the project is healthy.\n    \"\"\"",
+        "detail": "backend.backend.web.api.monitoring.views",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.backend.web.api.monitoring.views",
+        "description": "backend.backend.web.api.monitoring.views",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/health\")\ndef health_check() -> None:\n    \"\"\"\n    Checks the health of a project.\n    It returns 200 if the project is healthy.\n    \"\"\"",
+        "detail": "backend.backend.web.api.monitoring.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserRead",
+        "kind": 6,
+        "importPath": "backend.backend.web.api.users.schema",
+        "description": "backend.backend.web.api.users.schema",
+        "peekOfCode": "class UserRead(schemas.BaseUser[int]):\n    name: str\nclass UserCreate(schemas.BaseUserCreate):\n    name: str\nclass UserUpdate(schemas.BaseUserUpdate):\n    name: str",
+        "detail": "backend.backend.web.api.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "backend.backend.web.api.users.schema",
+        "description": "backend.backend.web.api.users.schema",
+        "peekOfCode": "class UserCreate(schemas.BaseUserCreate):\n    name: str\nclass UserUpdate(schemas.BaseUserUpdate):\n    name: str",
+        "detail": "backend.backend.web.api.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "kind": 6,
+        "importPath": "backend.backend.web.api.users.schema",
+        "description": "backend.backend.web.api.users.schema",
+        "peekOfCode": "class UserUpdate(schemas.BaseUserUpdate):\n    name: str",
+        "detail": "backend.backend.web.api.users.schema",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.backend.web.api.users.views",
+        "description": "backend.backend.web.api.users.views",
+        "peekOfCode": "router = APIRouter()\nrouter.include_router(\n    fastapi_users.get_auth_router(auth_backend, requires_verification=True),\n    prefix=\"/auth/jwt\",\n)\nrouter.include_router(\n    fastapi_users.get_register_router(UserRead, UserCreate),\n    prefix=\"/auth\",\n)\nrouter.include_router(",
+        "detail": "backend.backend.web.api.users.views",
+        "documentation": {}
+    },
+    {
+        "label": "api_router",
+        "kind": 5,
+        "importPath": "backend.backend.web.api.router",
+        "description": "backend.backend.web.api.router",
+        "peekOfCode": "api_router = APIRouter()\napi_router.include_router(monitoring.router)\napi_router.include_router(echo.router, prefix=\"/echo\", tags=[\"echo\"])\napi_router.include_router(dummy.router, prefix=\"/dummy\", tags=[\"dummy\"])\napi_router.include_router(users.router, prefix=\"/users\", tags=[\"users\"])\napi_router.include_router(history.router, prefix=\"/history\", tags=[\"history\"])",
+        "detail": "backend.backend.web.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "get_app",
+        "kind": 2,
+        "importPath": "backend.backend.web.application",
+        "description": "backend.backend.web.application",
+        "peekOfCode": "def get_app() -> FastAPI:\n    \"\"\"\n    Get FastAPI application.\n    This is the main constructor of an application.\n    :return: application.\n    \"\"\"\n    app = FastAPI(\n        title=\"backend\",\n        version=settings.VERSION,\n        docs_url=\"/api/docs\",",
+        "detail": "backend.backend.web.application",
+        "documentation": {}
+    },
+    {
+        "label": "register_startup_event",
+        "kind": 2,
+        "importPath": "backend.backend.web.lifetime",
+        "description": "backend.backend.web.lifetime",
+        "peekOfCode": "def register_startup_event(\n    app: FastAPI,\n) -> Callable[[], Awaitable[None]]:  # pragma: no cover\n    \"\"\"\n    Actions to run on application startup.\n    This function uses fastAPI app to store data\n    in the state, such as db_engine.\n    :param app: the fastAPI application.\n    :return: function that actually performs actions.\n    \"\"\"",
+        "detail": "backend.backend.web.lifetime",
+        "documentation": {}
+    },
+    {
+        "label": "register_shutdown_event",
+        "kind": 2,
+        "importPath": "backend.backend.web.lifetime",
+        "description": "backend.backend.web.lifetime",
+        "peekOfCode": "def register_shutdown_event(\n    app: FastAPI,\n) -> Callable[[], Awaitable[None]]:  # pragma: no cover\n    \"\"\"\n    Actions to run on application's shutdown.\n    :param app: fastAPI application.\n    :return: function that actually performs actions.\n    \"\"\"\n    @app.on_event(\"shutdown\")\n    async def _shutdown() -> None:  # noqa: WPS430",
+        "detail": "backend.backend.web.lifetime",
+        "documentation": {}
+    },
+    {
+        "label": "anyio_backend",
+        "kind": 2,
+        "importPath": "backend.backend.conftest",
+        "description": "backend.backend.conftest",
+        "peekOfCode": "def anyio_backend() -> str:\n    \"\"\"\n    Backend for anyio pytest plugin.\n    :return: backend name.\n    \"\"\"\n    return \"asyncio\"\n@pytest.fixture(scope=\"session\")\nasync def _engine() -> AsyncGenerator[AsyncEngine, None]:\n    \"\"\"\n    Create engine and databases.",
+        "detail": "backend.backend.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_app",
+        "kind": 2,
+        "importPath": "backend.backend.conftest",
+        "description": "backend.backend.conftest",
+        "peekOfCode": "def fastapi_app(\n    dbsession: AsyncSession,\n) -> FastAPI:\n    \"\"\"\n    Fixture for creating FastAPI app.\n    :return: fastapi app with mocked dependencies.\n    \"\"\"\n    application = get_app()\n    application.dependency_overrides[get_db_session] = lambda: dbsession\n    return application  # noqa: WPS331",
+        "detail": "backend.backend.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "LogLevel",
+        "kind": 6,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "class LogLevel(str, enum.Enum):  # noqa: WPS600\n    \"\"\"Possible log levels.\"\"\"\n    NOTSET = \"NOTSET\"\n    DEBUG = \"DEBUG\"\n    INFO = \"INFO\"\n    WARNING = \"WARNING\"\n    ERROR = \"ERROR\"\n    FATAL = \"FATAL\"\nclass Settings(BaseSettings):\n    \"\"\"",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "class Settings(BaseSettings):\n    \"\"\"\n    Application settings.\n    These parameters can be configured\n    with environment variables.\n    \"\"\"\n    host: str = \"127.0.0.1\"\n    port: int = 8000\n    # quantity of workers for uvicorn\n    workers_count: int = 1",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMP_DIR",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "TEMP_DIR = Path(gettempdir())\nclass LogLevel(str, enum.Enum):  # noqa: WPS600\n    \"\"\"Possible log levels.\"\"\"\n    NOTSET = \"NOTSET\"\n    DEBUG = \"DEBUG\"\n    INFO = \"INFO\"\n    WARNING = \"WARNING\"\n    ERROR = \"ERROR\"\n    FATAL = \"FATAL\"\nclass Settings(BaseSettings):",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "backend.backend.settings",
+        "description": "backend.backend.settings",
+        "peekOfCode": "settings = Settings()",
+        "detail": "backend.backend.settings",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "backend.passenger_wsgi",
+        "description": "backend.passenger_wsgi",
+        "peekOfCode": "application = ASGIMiddleware(get_app())",
+        "detail": "backend.passenger_wsgi",
+        "documentation": {}
+    }
+]
