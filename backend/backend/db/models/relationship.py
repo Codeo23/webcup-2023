@@ -26,12 +26,12 @@ class HistoryModel(Base):
     dream: Mapped[str] = mapped_column(String(length=200))
     interpretation: Mapped[str] = mapped_column(String(length=200))
     date: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
-    user_id: Mapped[int] = mapped_column(ForeignKey("user.id"))
+    user_id: Mapped[int] = mapped_column(ForeignKey("users.id"))
     user: Mapped["UserModel"] = relationship("User", secondary="user_history", back_populates="history")
 
 class UserHistory(Base):
     """ User's History model. """
     __tablename__ = "user_history"
     
-    user_id = Column(ForeignKey("user.id"), primary_key=True)
+    user_id = Column(ForeignKey("users.id"), primary_key=True)
     history_id = Column(ForeignKey("history.id"), primary_key=True)
