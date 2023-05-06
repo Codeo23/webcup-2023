@@ -1,9 +1,7 @@
-from importlib import metadata
-
 from fastapi import FastAPI
 from fastapi.responses import UJSONResponse
-from backend.settings import settings
 
+from backend.settings import settings
 from backend.web.api.router import api_router
 from backend.web.lifetime import register_shutdown_event, register_startup_event
 

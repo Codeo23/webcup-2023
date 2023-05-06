@@ -13,6 +13,7 @@ class UserDAO:
 
     def __init__(self, session: AsyncSession = Depends(get_db_session)):
         self.session = session
+
     async def get_all_users(self, limit: int, offset: int) -> List[UserModel]:
         """
         Get all user models with limit/offset pagination.
@@ -26,6 +27,7 @@ class UserDAO:
         )
 
         return list(raw_users.scalars().fetchall())
+
     async def filter(
         self,
         name: Optional[str] = None,

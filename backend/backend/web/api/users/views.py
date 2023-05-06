@@ -39,6 +39,7 @@ router.include_router(
     fastapi_users.get_users_router(UserRead, UserUpdate, requires_verification=True),
 )
 
+
 @router.get("/", response_model=List[UserRead])
 async def get_user_model(
     limit: int = 10,

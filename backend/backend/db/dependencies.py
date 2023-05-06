@@ -23,5 +23,6 @@ async def get_db_session(request: Request) -> AsyncGenerator[AsyncSession, None]
         await session.commit()
         await session.close()
 
+
 async def get_user_db(session: AsyncSession = Depends(get_db_session)):
     yield SQLAlchemyUserDatabase(session, UserModel)
