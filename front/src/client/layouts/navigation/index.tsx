@@ -1,11 +1,12 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+
 import { NavigationItem } from './navigationItem'
 import { routePath } from '../../constants/routePath'
 
 type Props = {}
 
 export const Navigation = (props: Props) => {
+
+  
   return (
     <nav className='navigation'>
       <img src="logo/logo-white.png" alt="logo-white" className='navigation-logo'/>
