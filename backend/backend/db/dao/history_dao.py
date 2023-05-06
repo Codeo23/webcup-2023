@@ -36,16 +36,21 @@ class HistoryDAO:
         
 
     # get all dreams
-    async def get_all_dreams(self, limit: int, offset: int) -> List[HistoryModel]:
+    async def get_all_dreams(self, limit: int, offset: int, user_id: int) -> List[HistoryModel]:
         """
         Get all dreams models with limit/offset pagination.
 
         :param limit: limit of dreams.
         :param offset: offset of dreams.
+        :param user_id: user id.
         :return: stream of dreams.
         """
-        raw_dreams = await self.session.execute(
-            select(HistoryModel).limit(limit).offset(offset),
-        )
-
-        return list(raw_dreams.scalars().fetchall())
+        
+        # get the dream history of the user
+        stmt = select(HistoryModel).join(UserHistory).where(UserHistory.user_id == user_id).limit(limit).offset(offset)
+        
+        # execute the query
+        result = await self.session.execute(stmt)
+        
+        # return the result
+        return result.scalars().all()
