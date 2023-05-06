@@ -1,0 +1,59 @@
+version: '3.9'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: ./deploy/Dockerfile
+      target: prod
+    image: backend:${BACKEND_VERSION:-latest}
+    restart: always
+    env_file:
+    - .env
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      BACKEND_HOST: 0.0.0.0
+      BACKEND_DB_HOST: backend-db
+      BACKEND_DB_PORT: 3306
+      BACKEND_DB_USER: backend
+      BACKEND_DB_PASS: backend
+      BACKEND_DB_BASE: backend
+
+  db:
+    image: bitnami/mysql:8.0.30
+    hostname: backend-db
+    restart: always
+    environment:
+      MYSQL_ROOT_USER: "backend"
+      MYSQL_ROOT_PASSWORD: "backend"
+      MYSQL_DATABASE: "backend"
+      MYSQL_AUTHENTICATION_PLUGIN: "mysql_native_password"
+    healthcheck:
+      test: mysqladmin ping -h localhost
+      interval: 10s
+      timeout: 5s
+      retries: 40
+    volumes:
+    - backend-db-data:/bitnami/mysql/data
+
+  migrator:
+    image: backend:${BACKEND_VERSION:-latest}
+    restart: "no"
+    command: alembic upgrade head
+    environment:
+      BACKEND_DB_HOST: backend-db
+      BACKEND_DB_PORT: 3306
+      BACKEND_DB_USER: backend
+      BACKEND_DB_PASS: backend
+      BACKEND_DB_BASE: backend
+    depends_on:
+      db:
+        condition: service_healthy
+
+
+
+volumes:
+  backend-db-data:
+    name: backend-db-data
