@@ -5,7 +5,7 @@ from fastapi_users.db import SQLAlchemyUserDatabase
 from sqlalchemy.ext.asyncio import AsyncSession
 from starlette.requests import Request
 
-from backend.db.models.user_model import UserModel
+from backend.db.models.relationship import UserModel
 
 
 async def get_db_session(request: Request) -> AsyncGenerator[AsyncSession, None]:

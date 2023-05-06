@@ -9,7 +9,7 @@ from fastapi_users.authentication import (
 )
 
 from backend.db.dependencies import get_user_db
-from backend.db.models.user_model import UserModel
+from backend.db.models.relationship import UserModel
 from backend.settings import settings
 
 bearer_transport = BearerTransport(tokenUrl="/users/auth/jwt/login")

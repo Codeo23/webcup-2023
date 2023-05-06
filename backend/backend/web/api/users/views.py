@@ -4,7 +4,7 @@ from fastapi import APIRouter, Depends
 from fastapi_users import FastAPIUsers
 
 from backend.db.dao.user_dao import UserDAO
-from backend.db.models.user_model import UserModel
+from backend.db.models.relationship import UserModel
 from backend.services.jwtauth import auth_backend, get_user_manager
 from backend.web.api.users.schema import UserCreate, UserRead, UserUpdate
 

@@ -5,7 +5,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.db.dependencies import get_db_session
-from backend.db.models.user_model import UserModel
+from backend.db.models.relationship import UserModel
 
 
 class UserDAO:
