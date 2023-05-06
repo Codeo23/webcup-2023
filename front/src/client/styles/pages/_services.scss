@@ -1,0 +1,64 @@
+.services {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+
+    &-back {
+        height: 80vh;
+        opacity: 0.15;
+        position: absolute;
+        right: 0;
+        bottom: 0;   
+        mix-blend-mode: luminosity; 
+    }
+
+    video {
+        height: 95vh;
+        left: 100px;
+        position: absolute;
+        bottom: 0;
+    }
+    .textarea-wrapper {
+        @include theme-aware("background", "secondary-color");
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        box-shadow: 5px 5px 100px black;
+        width: 30vw;
+        bottom: 100px;
+        border-radius: 5px;
+
+        display: flex;
+        align-items: end;
+        padding: 0 20px 10px;
+
+        .textarea-actions {
+            display: flex;
+            column-gap: 10px;
+
+            button {
+                background-color: #421A49;
+                @include theme-aware("color", "text-color2");
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+            }
+        }
+    }
+    .textarea {
+        width: 100%;
+        resize: none;
+        @include theme-aware("color", "text-color2");
+        @include theme-aware("background", "secondary-color");
+        outline: none;
+        max-height: 200px;
+        padding: 10px 20px 10px 0;
+        font-size: $font-small;
+        border-radius: 5px;
+
+        &::placeholder {
+            @include theme-aware("color", "text-color2");
+
+        }
+    }
+}
