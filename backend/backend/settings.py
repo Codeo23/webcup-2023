@@ -47,6 +47,10 @@ class Settings(BaseSettings):
     db_base: str = "backend"
     db_echo: bool = False
 
+    # Variables for the app
+    VERSION: str = "0.1.0"
+    SECRET_KEY: str = "SeCreTKeY"
+
     @property
     def db_url(self) -> URL:
         """
