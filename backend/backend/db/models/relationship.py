@@ -15,7 +15,7 @@ class UserModel(SQLAlchemyBaseUserTable[int], Base):
 
     id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     name: Mapped[str] = mapped_column(String(length=200))  # noqa: WPS432
-    history: Mapped[List["HistoryModel"]] = relationship("History", secondary="user_history", back_populates="user")
+    history: Mapped[List["HistoryModel"]] = relationship(secondary="user_history", back_populates="user")
     
 class HistoryModel(Base):
     """History model."""
@@ -27,7 +27,7 @@ class HistoryModel(Base):
     interpretation: Mapped[str] = mapped_column(String(length=200))
     date: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
     user_id: Mapped[int] = mapped_column(ForeignKey("users.id"))
-    user: Mapped["UserModel"] = relationship("User", secondary="user_history", back_populates="history")
+    user: Mapped["UserModel"] = relationship(secondary="user_history", back_populates="history")
 
 class UserHistory(Base):
     """ User's History model. """
