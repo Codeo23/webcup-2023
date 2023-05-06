@@ -1,0 +1,33 @@
+.services-card {
+    background-color: #3c0e46;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 1rem;
+    border-radius: 12px;
+    height: 45vh;
+    width: 45vh;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+  
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    }
+  
+    &__icon {
+      font-size: 46px;
+      color: #9c58ac;
+      margin-bottom: 10px;
+    }
+  
+    &__title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+  
+    &__description {
+      font-size: 16px;
+      color: #8a5d94;
+    }
+  }
