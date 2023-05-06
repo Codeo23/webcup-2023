@@ -7,7 +7,6 @@ from yarl import URL
 
 TEMP_DIR = Path(gettempdir())
 
-
 class LogLevel(str, enum.Enum):  # noqa: WPS600
     """Possible log levels."""
 
@@ -17,7 +16,6 @@ class LogLevel(str, enum.Enum):  # noqa: WPS600
     WARNING = "WARNING"
     ERROR = "ERROR"
     FATAL = "FATAL"
-
 
 class Settings(BaseSettings):
     """
@@ -47,6 +45,10 @@ class Settings(BaseSettings):
     db_base: str = "backend"
     db_echo: bool = False
 
+    # Variables for the app
+    VERSION: str = "0.1.0"
+    SECRET_KEY: str = "SeCreTKeY"
+
     @property
     def db_url(self) -> URL:
         """
@@ -67,6 +69,5 @@ class Settings(BaseSettings):
         env_file = ".env"
         env_prefix = "BACKEND_"
         env_file_encoding = "utf-8"
-
 
 settings = Settings()
