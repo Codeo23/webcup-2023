@@ -1,0 +1,1 @@
+export type ThemeType = "theme-light" | "theme-dark"
