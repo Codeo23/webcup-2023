@@ -4,6 +4,7 @@ import reportWebVitals from './reportWebVitals';
 import { App } from './core/router';
 import { Provider } from 'react-redux';
 import store from './core/store';
+import '@fontsource/poppins';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

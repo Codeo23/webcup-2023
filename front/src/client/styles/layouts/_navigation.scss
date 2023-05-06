@@ -1,0 +1,24 @@
+.navigation {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &-logo {
+        width: 180px;
+    }
+
+    &-lists {
+        display: flex;
+        column-gap: 20px;
+        @include theme-aware("color", "text-color2");
+    }
+
+    &-item {
+        @include theme-aware("color", "text-color2");
+
+        &--active {
+            @include theme-aware("color", "text-color");
+        }
+    }
+}
