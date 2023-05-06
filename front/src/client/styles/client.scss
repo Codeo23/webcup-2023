@@ -1,0 +1,27 @@
+@import 
+    './abstracts/colors',
+    './abstracts/mixins',
+    './abstracts/functions',
+    './abstracts/variable';
+
+
+
+@import './base/reset';
+
+@import 
+    './components/input';
+
+@import 
+    './layouts/auth',
+    './layouts/navigation',
+    './layouts/hero',
+    './layouts/solutions',
+    './layouts/roadmap',
+    './layouts/pricing',
+    './layouts/partners',
+    './layouts/footer';
+
+
+@import 
+    './pages/pages',
+    './pages/services';
