@@ -14,16 +14,10 @@
         mix-blend-mode: luminosity; 
     }
 
-    video {
-        height: 95vh;
-        left: 100px;
-        position: absolute;
-        bottom: 0;
-    }
+
     .textarea-wrapper {
         @include theme-aware("background", "secondary-color");
         box-shadow: 5px 5px 100px black;
-        width: 60%;
         border-radius: 5px;
         display: flex;
         align-items: end;
@@ -43,7 +37,6 @@
         }
     }
     .textarea {
-        width: 100%;
         resize: none;
         @include theme-aware("color", "text-color2");
         @include theme-aware("background", "secondary-color");
@@ -98,6 +91,107 @@
         }
         .textarea-wrapper {
             margin-top: 50px;
+            width: 60%;
+        }
+    }
+
+    .image-question {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+
+        .video {
+            position: relative;
+
+            video {
+                width: 80%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+
+        .right {
+            padding: 100px 50px 20px;
+            z-index: 50;
+            .top {
+                height: 20%;
+                .img {
+                    width: 70%;
+                    height: 100%;
+                    padding: 10px;
+                    background-color: rgba(255,255,255,0.06);
+                    border-radius: 5px;
+                    border-width: 1px;
+                    @include theme-aware("border-color", "text-color2");
+                    
+                    img {
+                        object-position: center;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+
+                    &-actions {
+                        margin-top: 5px;
+                        font-size: $font-small;
+                        button {
+                            border-radius: 5px;
+                            padding: 5px 0;
+                            width: 100px;
+                            margin-right: 10px;
+                            &.yes {
+                                background-image:  linear-gradient(#421A49,#CB4946);
+                            }
+                            &.regenerate {
+                                background-color: #421A49;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .predictions {
+                margin: 50px 0;
+                padding-bottom: 10px;
+                
+                &-content {
+                    height: 35vh;
+                    overflow-y: auto;
+                    padding: 15px;
+                    background-color: rgba(255,255,255,0.06);
+                    border-radius: 5px;
+                    border-width: 1px;
+                    @include theme-aware("border-color", "text-color2");
+                    @include theme-aware("color", "text-color2");
+                    font-size: $font-small;
+                    line-height: 20px;
+                }
+                &-actions {
+                    margin-top: 10px;
+                    display: flex;
+                    button{
+                        width: 50px;
+                        height: 50px;
+                        font-size: 30px;
+                        border-radius: 5px;
+                        margin-right: 10px;
+                        @include theme-aware("background-color", "secondary-color");
+                        @include theme-aware("color", "text-color2");
+                    }
+                }
+            }
+
+            .textarea-wrapper {
+                width: 40%;
+                bottom: 20px;
+                position: absolute;
+
+                .textarea {
+                    width: 100%;
+                }
+            }
         }
     }
 }
