@@ -9,10 +9,10 @@ video {
 }
 
 .content {
-    position: relative;
-    z-index: 1;
-    top: 30rem;
-    right: 0rem;
+    position: fixed;
+    z-index: 0;
+    top: 20rem;
+    right: 10rem;
     padding: 60px;
     text-align: left;
     mix-blend-mode: difference;
@@ -20,7 +20,7 @@ video {
 
 
     h1{
-        font-size: 60px;
+        font-size: 70px;
         font-weight: bolder;
     }
 
