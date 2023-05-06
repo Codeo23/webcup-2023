@@ -1,14 +1,15 @@
 $themes: (
     light: (
-        bg-color : #e8f1ec,
-        text-color: #130f40,
-        text-color-2: rgba(128, 128, 128, 0.8),
-        secondary-color: rgb(0, 0, 255),
+        primary-color : #fff,
+       
+        text-color: #000,
+        text-color2: #9763A3,
     ),
     dark: (
-        bg-color : #130f40,
-        text-color: #e8f1ec,
-        text-color-2: rgba(128, 128, 128, 0.8),
-        secondary-color: rgb(0, 0, 255),
+        primary-color : #1B0420,
+        secondary-color : #2C0933,
+        text-color: #fff,
+        text-color2: #9763A3,
+        
     )
 );
