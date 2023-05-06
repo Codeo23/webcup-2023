@@ -11,13 +11,13 @@
         width: 180px;
     }
 
-    &-lists {
+    &-lists,&-language {
         display: flex;
         column-gap: 20px;
         @include theme-aware("color", "text-color2");
     }
 
-    &-item {
+    &-item,&-language {
         @include theme-aware("color", "text-color2");
 
         &--active {
