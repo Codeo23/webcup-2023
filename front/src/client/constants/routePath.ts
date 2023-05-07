@@ -1,5 +1,6 @@
 export const routePath = {
     "landing" : "/",
     "services" : "/services",
-    "about" : "/a-propos"
+    "about" : "/a-propos",
+    "book":"/book"
 }

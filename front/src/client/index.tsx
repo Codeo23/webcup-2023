@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { RootState } from '../core/store'
 import { ThemeType } from '../core/types/theme-type'
 import { toogleTheme } from '../core/slices/theme-slice'
+import Book from './pages/Story/Storybook'
 import './styles/client.scss'
 
 type Props = {}
@@ -34,6 +35,7 @@ export const Client = (props: Props) => {
                 <Routes>
                     <Route index path='/' element={<Landing />} />
                     <Route path='/services' element={<Services />} />
+                    <Route path='/book' element={<Book />} />
                 </Routes>
             </div>
         </main>
