@@ -7,7 +7,7 @@ type Props = {}
 export const Pricing = (props: Props) => {
     return (
         <section className='pricing'>
-           <h2 className='title-section'>Découvrez nos tarifs <br/>compétitifs et transparents.</h2>
+           <h2 className='title-section'>Découvrez nos tarifs <br/>de consultation d'un professionel</h2>
             <div className='pricing-card'>
                 <div className='icones'>
                     <div className='first'></div>
