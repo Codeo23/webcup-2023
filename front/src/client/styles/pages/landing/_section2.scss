@@ -4,13 +4,16 @@
     padding: 50px;
     top: 55rem;
     width: 100%;
+    
+    h1
+    {
+        font-size: 90px;
+        font-weight: bolder;
+        z-index: 4555;
+    }
 }
 
-h1{
-    font-size: 90px;
-    font-weight: bolder;
-    z-index: 4555;
-}
+
 
 .services {
     display: flex;
