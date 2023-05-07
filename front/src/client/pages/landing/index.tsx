@@ -3,6 +3,7 @@ import { Navigation } from '../../layouts/navigation'
 import { Section1 } from './section1'
 import { Section2 } from './section2'
 import { Section3 } from './section3'
+import { Roadmap } from './roadmap'
 
 type Props = {}
 
@@ -36,8 +37,6 @@ export const Landing = (props: Props) => {
         </div>
         <div className='scrollable_section'> 
             <Section2/>
-            <Section3/>
-            
         </div>
       </div>  
     </div>

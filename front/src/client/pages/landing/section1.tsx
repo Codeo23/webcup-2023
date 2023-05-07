@@ -4,7 +4,7 @@ type Props = {}
 
 export const Section1 = (props: Props) => {
   return (
-    <div>
+    <div className="section1">
         <video autoPlay loop>
             <source src="video/OnirixPrésentation.mp4" type="video/mp4"/>
         </video>
