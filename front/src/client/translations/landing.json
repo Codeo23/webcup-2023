@@ -1,14 +1,28 @@
 {
     "en": {
+        "navigation" : {
+            "home" : "Home",
+            "services" : "Services",
+            "history" : "History"
+        },
         "hero": {
-            "title1": "Work Collaboration",
-            "title2": "Easy & Fast"
+            "title1": "The Dream,the Human,the AI",
+            "title2": "from separate to combined.",
+            "title3": "How do humans dream, can AI predict and anticipate human dreams?",
+            "weare" : "Whe are we?"
         }
     },
     "fr": {
+        "navigation" : {
+            "home" : "Accueil",
+            "services" : "Services",
+            "history" : "Historiques"
+        },
         "hero": {
-            "title1": "Collaboration de travail",
-            "title2": "Facile & Rapide"
+            "title1": "Le rêve,l'humain et l'IA",
+            "title2": "de séparés à combinés.",
+            "title3": "Comment les humains rêvent-ils, l'IA peut-elle prédire et prévoir les rêves humains?",
+            "weare" : "Qui sommes nous?"
         }
     }
 }

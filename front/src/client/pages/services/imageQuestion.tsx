@@ -40,7 +40,6 @@ export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, lo
                 </video>
             </div>
             <div className='right'>
-                <h1>Recording: {isRecording.toString()}</h1>
                 <h1>EST-CE L'IMAGE ILLUSTRANT VOS RÊVES?</h1>
                 <div className='top'>
                     <div className='img'>
