@@ -1,4 +1,5 @@
 from pathlib import Path
+import logging
 
 from fastapi import FastAPI
 from fastapi.responses import UJSONResponse
@@ -11,6 +12,15 @@ from backend.web.lifetime import register_shutdown_event, register_startup_event
 # create static folder
 if Path("backend/static").exists() is False:
     Path("backend/static").mkdir(parents=True, exist_ok=True)
+    
+# Create a logger object.
+logger = logging.getLogger(__name__)
+
+# Configure the logger object to write to a file.
+logger.setLevel(logging.INFO)
+handler = logging.FileHandler("log.txt")
+handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
+logger.addHandler(handler)
 
 def get_app() -> FastAPI:
     """
