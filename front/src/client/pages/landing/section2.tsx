@@ -48,6 +48,7 @@ export const Section2 = (props: Props) => {
         </div>
 
       </div>
+      <h1 className="text-center text-purple-500">PROCESSUS</h1>
       <Roadmap />
       <Pricing />
       <Footer />
