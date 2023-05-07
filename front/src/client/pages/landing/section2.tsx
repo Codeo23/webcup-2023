@@ -1,5 +1,6 @@
 import { faCode, faLaptop, faMobile } from "@fortawesome/free-solid-svg-icons";
 import { ServicesCard } from "./services_card";
+import { Roadmap } from "./roadmap";
 
 type Props = {}
 
@@ -32,6 +33,7 @@ export const Section2 = (props: Props) => {
           </div>          
           <img src="images/brains.png" alt="" />
         </div>
+      <Roadmap/>
       </div>
     </div>
   )
