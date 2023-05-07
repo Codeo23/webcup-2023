@@ -8,6 +8,7 @@ import { yupResolver } from "@hookform/resolvers/yup"
 import { FormData, schema } from './schema';
 import axios, { AxiosResponse } from 'axios';
 import ReactAudioPlayer from 'react-audio-player';
+import { useTranslation } from 'react-i18next';
 
 export const Services = () => {
   const {
@@ -24,6 +25,8 @@ export const Services = () => {
   const [audio, setAudio] = useState<string>("")
   const [prediction, setPrediction] = useState<string>("")
   const [viewRes,setViewRes] = useState<boolean>(false)
+  const [image,setImage] = useState<string>("")
+  const { i18n } = useTranslation()
 
   const onSubmit = async (data: FormData) => {
     setPrediction("loading")
@@ -40,10 +43,14 @@ export const Services = () => {
       text = res.data.choices[0].message.content
     }).catch(err => console.log(""))
 
-    await axios.post<any, AxiosResponse<{ filename: string }>>(`http://webcup.codeo.mg/api/ai/generate_audio`, { text: text, lang: "fr" }).then(res => {
+    await axios.post<any, AxiosResponse<{ filename: string }>>(`http://webcup.codeo.mg/api/ai/generate_audio`, { text: text, lang: i18n.resolvedLanguage }).then(res => {
       const audioLink = `http://webcup.codeo.mg/static/${res.data.filename}`
       console.log(audioLink)
       setAudio(audioLink)
+    }).catch(err => console.log(err))
+
+    await axios.post<any, AxiosResponse<{ image: string }>>(`http://webcup.codeo.mg/api/ai/generate_image?dream=${text}`,).then(res => {
+      setImage(res.data.image)
     }).catch(err => console.log(err))
 
 
@@ -63,8 +70,7 @@ export const Services = () => {
       </div>
       <div className='services-content'>
 
-        {viewRes ? <ImageQuestion handleSubmit={handleSubmit} onSubmit={onSubmit} register={register} prediction={prediction} loading={prediction === "loading"} /> : <ImageNone setViewRes={setViewRes}/>}
-        
+        {viewRes ? <ImageQuestion image={image} handleSubmit={handleSubmit} onSubmit={onSubmit} register={register} prediction={prediction} loading={prediction === "loading"} /> : <ImageNone setViewRes={setViewRes}/>}
       </div>
     </div>
   )

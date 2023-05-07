@@ -20,10 +20,11 @@ type Props = {
     register: UseFormRegister<FormData>,
     handleSubmit: UseFormHandleSubmit<FormData>,
     prediction: string,
-    loading: boolean
+    loading: boolean,
+    image?: string
 }
 
-export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, loading }: Props) => {
+export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, loading,image }: Props) => {
   const [isOpenLogin, setIsOpenLogin] = useState(false)
     function closeModalLogin() {
         setIsOpenLogin(false)
@@ -44,10 +45,11 @@ export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, lo
         }
     }, [])
 
+
     return (
         <div className='image-question'>
             <Login isOpen={isOpenLogin} closeModal={closeModalLogin}/>
-            <img src='images/back.png' alt='back-services' className='services-back' />
+            {image && <img src='images/back.png' alt='back-services' className='services-back' />}
             <div className='video'>
                 {theme === "theme-dark" ? <video controls={false} autoPlay loop muted>
                     <source src='video/onirix-dark.mp4' type="video/mp4" />
@@ -59,7 +61,7 @@ export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, lo
                 <h1>EST-CE L'IMAGE ILLUSTRANT VOS RÊVES?</h1>
                 <div className='top'>
                     <div className='img'>
-                        <img src='images/reves.jpg' alt='reves-alt' className='img-dream' />
+                        <img src={image !== "" ? 'images/reves.jpg' : image} alt='reves-alt' className='img-dream' />
                     </div>
                     <div className='img-actions'>
                         <button className='yes'>Oui</button>

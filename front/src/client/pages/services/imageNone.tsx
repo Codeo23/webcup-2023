@@ -8,6 +8,7 @@ type Props = {
 }
 
 export const ImageNone = ({setViewRes}: Props) => {
+  
   return (
     <div className='image-none'>
         <img src='logo/logo-text-white.png' alt='logo-text-white' className='text-logo'/>
