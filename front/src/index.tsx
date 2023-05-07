@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import store from './core/store';
 import './core/translations/i18n'
 import '@fontsource/poppins';
+import 'react-vertical-timeline-component/style.min.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
