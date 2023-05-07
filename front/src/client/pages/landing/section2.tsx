@@ -37,20 +37,20 @@ export const Section2 = (props: Props) => {
           <h2>L'Intelligence Artificielle Onirix</h2>
           <h3>Des milliers de rectangles en mouvance dans un espace-temps indéfini, des nuances de gris aléatoires et un dialogue robotique : voilà à quoi est la puissance d’ORINIX</h3>
         </div>
-        <img src="images/brains.png" alt="" />        
+        <img src="images/brains.png" alt="" />
       </div>
       <div className="tertiaire_services">
         <img src="images/lune.png" alt="" />
-        <div  className="next_services" data-aos="fade-up">
-            <h4>STAT</h4>
-            <h2>Vos rêves sont encore plus liés <br/> à votre vie quotidienne  que vous ne le pensez :</h2>
-            <h3>20 000 rapports de rêve, afin de confirmer l'hypothèse d'une continuité entre les rêves et la réalité vécue au quotidien.</h3>
+        <div className="next_services" data-aos="fade-up">
+          <h4>STAT</h4>
+          <h2>Vos rêves sont encore plus liés <br /> à votre vie quotidienne  que vous ne le pensez :</h2>
+          <h3>20 000 rapports de rêve, afin de confirmer l'hypothèse d'une continuité entre les rêves et la réalité vécue au quotidien.</h3>
         </div>
-        
+
       </div>
       <Roadmap />
       <Pricing />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

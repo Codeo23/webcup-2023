@@ -1,0 +1,189 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Bonjour",
+        "Hey",
+        "Comment allez-vous ?",
+        "Il y a quelqu'un ?",
+        "Salut !",
+        "Bonne journée"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Salut, Merci de votre visite",
+        "Salut, que puis-je faire pour vous ?",
+        "Salut , comment je pourrai vous aider?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Au revoir", "A plus tard", "Au revoir"],
+      "responses": [
+        "A plus tard, merci d’être venu",
+        "Bonne journée",
+        "Au revoir! revenez bientôt."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Merci", "Merci", "C’est utile", "Merci beaucoup!"],
+      "responses": ["Heureux d’aider!" , "N’importe quand!" , "Mon plaisir"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Que pouvez-vous me faire ?",
+        "Quels servcices avez-vous?"
+      ],
+      "responses": [
+        "Nous pouvons decoder votre rêve et prédire votre avenir",
+        "Nous sommes spécialiste dans le prédiction de l'avenir à travers vos rêves"
+      ]
+    },
+    {
+      "tag": "pourquoi",
+      "patterns": [
+        "pourquoi je rêve?",
+        "Pourquoi le reve existe?", 
+        "existence des rêves?"
+      ],
+      "responses": [
+        "Grâce à l’imagerie par résonance magnétique fonctionnelle (IRMf), ce que nous voyons à l’œil nu peut être enregistré à travers notre activité cérébrale. C'est pour cela que notre outil vous permettra de traduire vo reves en images"
+      ]
+    },
+    {
+      "tag": "boitedev",
+      "patterns": [
+        "Qui a devéloppé cet outil ?",
+        "Quels servcices avez-vous?",
+        "entreprise informatique"      ],
+      "responses": [
+        "Cette IA a été dévéloppé par CODEO.MG , une entreprise au service numérique spécialisé dans l'IA "
+      ]
+    },
+    {
+      "tag": "pourquoi",
+      "patterns": [
+        "pourquoi je rêve?",
+        "Pourquoi le reve existe?", 
+        "existence des rêves?"
+      ],
+      "responses": [
+        "Grâce à l’imagerie par résonance magnétique fonctionnelle (IRMf), ce que nous voyons à l’œil nu peut être enregistré à travers notre activité cérébrale. C'est pour cela que notre outil vous permettra de traduire vo reves en images"
+      ]
+    },
+    {
+      "tag": "quoi",
+      "patterns": [
+        "C'est quoi ?",
+        "dit moi plus de cet outil", 
+        "j'ai besoin d'éxplication?",
+        "quelle solution proposez-vous",
+        "je reve souvent"
+      ],
+      "responses": [
+        "ONIRIX est un outil qui va vous aider à prédire et prévoir vos reves avec la possibilité de télécharger vos reves. Comment? On vous invite  consulter le site, à très vite",
+        "ONIRIX est un outil qui va vous permettre de voir vos reves plus clairement et facilement.",
+        "Vous avez du mal à vous en souvenir de vos reves? Par contre vous souhaitez savoir ce que celle ci veut dire ? Cosulter ONIRIX qui va vous permettre de prédire et prévoir vos reves"
+
+      ]
+    },
+    {
+      "tag": "comment",
+      "patterns": [
+        "comment utiliser cet outil?",
+        "utilisation?", 
+        "processus?",
+        "je veux savoir la signification de mon reve",
+        "que signifie mon reve"
+      ],
+      "responses": [
+      "le processus est facile, vous écrivez et ou dites vos reves et ORINIX vous fournira tout de suite la signification avec une ullistration visuel",
+      "Si vous souhaitez savoir la signification de vos reves, écrivez ou dites vos reves à ORINIX et il va tout de suite prédire et prévoire vos reves"
+      ]
+    },
+    {
+      "tag": "prevoir",
+      "patterns": [
+        "comment ORINIX va prévoir mes reves ",
+        "Pourquoi il arrive ) prévoir mon reve?", 
+        "prévoir de quel moyen ? ?"
+      ],
+      "responses": [
+        "Grâce à l’imagerie par résonance magnétique fonctionnelle (IRMf), ce que nous voyons à l’œil nu peut être enregistré à travers notre activité cérébrale. C'est pour cela que notre outil vous permettra de traduire vo reves en images",
+        "grace à un IA, vos reves vont tout de suite répresentés visuellement afin que vos reves deviennent réalité et possible de le garder",
+        " vu que nous avons cette possibilité d'illustrer vos reves, ce dernier ser téléchargeable et personnaisable pour une souvenir de reve en réalité pour vous "
+      ]
+    },
+    {
+      "tag": "prédire",
+      "patterns": [
+        "comment il prédit mes reves ",
+        "moyen de prédilection?", 
+        "est ce qu'il ne ment pas?",
+        "c'est pas un mensonge ?"
+      ],
+      "responses": [
+      "il prédit les reves grace à des informations que vous allez lui fournir",
+      "ORINIX va prédire le reve par les informations que vous entrez avant la consultation" 
+      ]
+    },
+    {
+      "tag": "ORINIX",
+      "patterns": [
+        "qui est 0RINIX?",
+        "explication d'ORINIX", 
+        "mes reves sont bizarres ?"
+      ],
+      "responses": [
+      "Avez-vous déjà rêvé d’une personne au hasard avec qui vous êtes allé au lycée ? Ou d’un rêve prémonitoire prédisant un embouteillage sur le trajet de votre travail ? Ou que diriez-vous d’un rêve insensé avec des monstres et d’étranges personnages, sans scénario bien précis, qui perturberait votre sommeil ?nous essayons de le prédire",
+      "Avez-vous déjà rêvé d’une personne au hasard avec qui vous êtes allé au lycée ? Ou d’un rêve prémonitoire prédisant un embouteillage sur le trajet de votre travail ? Ou que diriez-vous d’un rêve insensé avec des monstres et d’étranges personnages, sans scénario bien précis, qui perturberait votre sommeil ?OUI ORINIX"
+    
+      ]
+    },
+    {
+      "tag": "puissance",
+      "patterns": [
+        "est-ce puissant?",
+        "comment est la puissance", 
+        "explication de la puissance"
+      ],
+      "responses": [
+       "cet outil est puissant car c'est le melange de pas seulement un IA pas aussi des études psycologiques",
+       " comment ne pas dire que ce dernier est puissat quand il peut prédire et prévoir à la fois vos reves", 
+       "nous vous invitons de tester tout de suite, une prédiction à la fois la capacité de prévoir sont plus que puissants. TESTONS"
+      ]
+    },
+    {
+      "tag": "fiabilité",
+      "patterns": [
+        "C'est fiable?",
+        "comment la fiabilité?", 
+        "on peut vraiment croire  cet IA?",
+        "je ne crois pas à ca"
+      ],
+      "responses": [
+      "comment ne pas croire un outil fiable qui utilise des IA avec des appui Des chercheurs qui a créé un dispositif sans fil d’analyse du sommeil qui ne nécessite aucun appareillage.",
+      "cet outil est fiable car c'est le melange de pas seulement un IA pas aussi des études psycologiques et d'autres études en appuis",
+      " comment ne pas dire que ce dernier est fiable quand il peut prédire et prévoir à la fois vos reves", 
+      "nous vous invitons de tester tout de suite, une prédiction à la fois la capacité de prévoir sont plus que fiables. TESTONS"
+
+      ]
+    },
+    {
+      "tag": "statistique",
+      "patterns": [
+        "nombre de personnes ayant déjà utlisé?",
+        "satisfaction client?", 
+        "statistique?", 
+        "utilisateur"
+      ],
+      "responses": [
+       "plus de 200 nouveaux utlisateurs par jour avec une satisfaction client de 99%",
+       "les 294693 utilisateurs baignent déjà dans le bonheur de ORNIX, nous vous attendons pour etre le 294694 "
+      ]
+    } 
+  ]
+}

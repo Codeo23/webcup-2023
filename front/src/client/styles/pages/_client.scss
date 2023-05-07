@@ -3,4 +3,13 @@
     @include theme-aware("color", "text-color");
     min-height: 100vh;
     font-size: $font-base;
+
+    .chatbot {
+        width: 30%;
+        height: 80vh;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        z-index: 9999;
+    }
 }

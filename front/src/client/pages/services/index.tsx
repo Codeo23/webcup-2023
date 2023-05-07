@@ -23,6 +23,7 @@ export const Services = () => {
 
   const [audio, setAudio] = useState<string>("")
   const [prediction, setPrediction] = useState<string>("")
+  const [viewRes,setViewRes] = useState<boolean>(false)
 
   const onSubmit = async (data: FormData) => {
     setPrediction("loading")
@@ -52,7 +53,7 @@ export const Services = () => {
 
   return (
     <div className='services'>
-      <Navigation />
+      <Navigation viewTheme={false}/>
       <ReactAudioPlayer
           src={audio}
           autoPlay
@@ -61,8 +62,7 @@ export const Services = () => {
       </div>
       <div className='services-content'>
 
-        <ImageQuestion handleSubmit={handleSubmit} onSubmit={onSubmit} register={register} prediction={prediction} loading={prediction === "loading"} />
-        {/* <ImageNone/> */}
+        {viewRes ? <ImageQuestion handleSubmit={handleSubmit} onSubmit={onSubmit} register={register} prediction={prediction} loading={prediction === "loading"} /> : <ImageNone setViewRes={setViewRes}/>}
         
       </div>
     </div>

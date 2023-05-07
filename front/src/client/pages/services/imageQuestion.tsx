@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMicrophoneAlt, faMicrophoneAltSlash, faRefresh } from "@fortawesome/free-solid-svg-icons";
@@ -10,6 +10,10 @@ import { BeatLoader } from 'react-spinners';
 import { TypeAnimation } from 'react-type-animation';
 import useSpeechToText from 'react-hook-speech-to-text';
 import { Login } from '../login';
+import { useDispatch, useSelector } from 'react-redux';
+import { RootState } from '../../../core/store';
+import { ThemeType } from '../../../core/types/theme-type';
+import { toogleTheme } from '../../../core/slices/theme-slice';
 
 type Props = {
     onSubmit: (data: FormData) => void,
@@ -29,14 +33,27 @@ export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, lo
         setIsOpenLogin(true)
       }
 
+      const dispatch = useDispatch()
+    const { theme } = useSelector<RootState>(state => state.theme) as { theme: ThemeType }
+
+    useEffect(() => {
+        if (localStorage.getItem("theme-webcup")) {
+            const themeStorage = localStorage.getItem("theme-webcup") as ThemeType
+            dispatch(toogleTheme(themeStorage))
+            return
+        }
+    }, [])
+
     return (
         <div className='image-question'>
             <Login isOpen={isOpenLogin} closeModal={closeModalLogin}/>
             <img src='images/back.png' alt='back-services' className='services-back' />
             <div className='video'>
-                <video controls={false} autoPlay loop muted>
+                {theme === "theme-dark" ? <video controls={false} autoPlay loop muted>
                     <source src='video/onirix-dark.mp4' type="video/mp4" />
-                </video>
+                </video> : <video controls={false} autoPlay loop muted>
+                    <source src='video/onirix-white.mp4' type="video/mp4" />
+                </video>}
             </div>
             <div className='right'>
                 <h1>EST-CE L'IMAGE ILLUSTRANT VOS RÊVES?</h1>
@@ -56,7 +73,7 @@ export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, lo
                     </div>
                 </div>}
                 <form onSubmit={handleSubmit(onSubmit)} className='textarea-wrapper'>
-                    <TextareaAutosize placeholder='Décrivez vos rêves ici' className='textarea' {...register("dream")} />
+                    <TextareaAutosize autoFocus={true} placeholder='Décrivez vos rêves ici' className='textarea' {...register("dream")} />
                     <div className='textarea-actions'>
                         {loading ? <BeatLoader color='#9763A3' size={10} /> : <><button type='submit'><FontAwesomeIcon icon={faPaperPlane} /></button>
                             <button type='button' onClick={openModalLogin}><FontAwesomeIcon icon={faSave} /></button></>}
