@@ -17,8 +17,8 @@ if Path("backend/static").exists() is False:
 logger = logging.getLogger(__name__)
 
 # Configure the logger object to write to a file.
-logger.setLevel(logging.ERROR)
-handler = logging.FileHandler("error.log")
+logger.setLevel(logging.DEBUG)
+handler = logging.FileHandler("debug.log")
 handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(message)s"))
 logger.addHandler(handler)
 
