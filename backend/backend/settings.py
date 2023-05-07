@@ -51,6 +51,7 @@ class Settings(BaseSettings):
     VERSION: str = "0.1.0"
     SECRET_KEY: str = "SeCreTKeY"
     URL_ROUTE: str = "127.0.0.1:8000"
+    REPLICATE_API_TOKEN: str = "token here"
 
     @property
     def db_url(self) -> URL:
