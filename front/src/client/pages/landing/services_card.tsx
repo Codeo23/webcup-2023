@@ -12,7 +12,7 @@ type Props = {
 
 export const ServicesCard = ({ title, description, icon }: Props) => {
     return (
-    <div className="services-card">
+    <div className="services-card" data-aos="zoom-in-left">
         <div className="services-card__icon">{<FontAwesomeIcon icon={icon}/>}</div>
         <h3 className="services-card__title">{title}</h3>
         <p className="services-card__description">{description}</p>
