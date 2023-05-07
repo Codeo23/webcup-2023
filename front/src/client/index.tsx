@@ -35,7 +35,7 @@ export const Client = (props: Props) => {
                 <Routes>
                     <Route index path='/' element={<Landing />} />
                     <Route path='/services' element={<Services />} />
-                    <Route path='/book' element={<Book />} />
+                    {/* <Route path='/book' element={<Book />} /> */}
                 </Routes>
             </div>
         </main>

@@ -1,13 +1,12 @@
 $themes: (
     light: (
         primary-color : #fff,
-       
         text-color: #ffffff,
         text-color2: #9763A3,
         text-color3: #1B0420,
         background-color-landing: #e7e7e7,
         background-color-card: #ffffff,
-
+        text-color10: #756d77,
         nav : rgb(45, 9, 52, 0.8),
     ),
     dark: (
@@ -19,5 +18,6 @@ $themes: (
         background-color-landing: #1B0420,
         background-color-card: #3c0e46,
         nav : rgba(167, 137, 173, 0.63),
+        text-color10: #756d77,
     )
 );

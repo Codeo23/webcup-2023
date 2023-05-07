@@ -36,7 +36,7 @@ export const Navigation = ({viewTheme = true }: Props) => {
         <div className='navigation-lists'>
           <NavigationItem path={routePath.landing} label='home' />
           <NavigationItem path={routePath.services} label='services' />
-          <NavigationItem path={routePath.book} label='history' />
+          {/* <NavigationItem path={routePath.book} label='history' /> */}
         </div>
         <div className='navigation-language'>
           {Object.keys(lngs).map((lng) => {
@@ -60,9 +60,9 @@ export const Navigation = ({viewTheme = true }: Props) => {
           >
             <FontAwesomeIcon icon={faClose} color="white" size="xl" />
           </motion.div>
-          <NavigationItem path={routePath.landing} label='ACCUEIL' />
-          <NavigationItem path={routePath.services} label='SERVICES' />
-          <NavigationItem path={routePath.book} label='A PROPOS' />
+          <NavigationItem path={routePath.landing} label='home' />
+          <NavigationItem path={routePath.services} label='services' />
+          {/* <NavigationItem path={routePath.book} label='' /> */}
 
           {Object.keys(lngs).map((lng) => {
             const lang = lng as "fr" | "en"

@@ -40,8 +40,9 @@ export const Services = () => {
       text = res.data.choices[0].message.content
     }).catch(err => console.log(""))
 
-    await axios.post<any, AxiosResponse<{ filename: string }>>(`http://webcup.codeo.mg/api/gtts/generate`, { text: text, lang: "fr-Fr" }).then(res => {
+    await axios.post<any, AxiosResponse<{ filename: string }>>(`http://webcup.codeo.mg/api/ai/generate_audio`, { text: text, lang: "fr" }).then(res => {
       const audioLink = `http://webcup.codeo.mg/static/${res.data.filename}`
+      console.log(audioLink)
       setAudio(audioLink)
     }).catch(err => console.log(err))
 

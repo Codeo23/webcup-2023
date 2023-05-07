@@ -43,7 +43,7 @@
     }
     .textarea {
         resize: none;
-        @include theme-aware("color", "text-color2");
+        @include theme-aware("color", "text-color10");
         @include theme-aware("background", "secondary-color");
         outline: none;
         max-height: 200px;
@@ -52,7 +52,7 @@
         border-radius: 5px;
 
         &::placeholder {
-            @include theme-aware("color", "text-color2");
+            @include theme-aware("color", "text-color10");
 
         }
     }
@@ -173,8 +173,8 @@
                     background-color: rgba(255,255,255,0.06);
                     border-radius: 5px;
                     border-width: 1px;
-                    @include theme-aware("border-color", "text-color2");
-                    @include theme-aware("color", "text-color2");
+                    @include theme-aware("border-color", "text-color10");
+                    @include theme-aware("color", "text-color10");
                     font-size: $font-small;
                     line-height: 20px;
                 }
