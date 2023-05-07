@@ -1,3 +1,4 @@
+import backend.web.api
 from typing import List, Optional
 
 from fastapi import Depends
@@ -29,10 +30,13 @@ class HistoryDAO:
             user_id (int): the user who created the dream
         """
         
-        self.session.add(HistoryModel(dream=dream, interpretation=interpretation, user_id=user_id))
+        history = HistoryModel(dream=dream, interpretation=interpretation, user_id=user_id)
+                
+        self.session.add(history)
+        await self.session.commit()
         
-        # append the dream to the user's history
-        self.session.add(UserHistory(user_id=user_id, history_id=HistoryModel.id))
+        # append the dream to the user's dream history
+        self.session.add(UserHistory(user_id=user_id, history_id=history.id))
         
 
     # get all dreams

@@ -1,8 +1,9 @@
+from datetime import datetime
 from pydantic import BaseModel
 
 class HistoryRead(BaseModel):
     id: int
-    date: str
+    date: datetime
     user_id: int
     dream: str
     interpretation: str

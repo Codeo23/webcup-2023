@@ -50,6 +50,7 @@ class Settings(BaseSettings):
     # Variables for the app
     VERSION: str = "0.1.0"
     SECRET_KEY: str = "SeCreTKeY"
+    URL_ROUTE: str = "127.0.0.1:8000"
 
     @property
     def db_url(self) -> URL:
@@ -69,7 +70,6 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
-        env_prefix = "BACKEND_"
         env_file_encoding = "utf-8"
 
 
