@@ -29,10 +29,12 @@ class HistoryDAO:
             user_id (int): the user who created the dream
         """
         
-        self.session.add(HistoryModel(dream=dream, interpretation=interpretation, user_id=user_id))
+        history = HistoryModel(dream=dream, interpretation=interpretation, user_id=user_id)
+        
+        self.session.add(history)
         
         # append the dream to the user's history
-        self.session.add(UserHistory(user_id=user_id, history_id=HistoryModel.id))
+        self.session.add(UserHistory(user_id=user_id, history_id=history.id))
         
 
     # get all dreams

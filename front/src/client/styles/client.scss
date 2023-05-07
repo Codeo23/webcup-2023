@@ -10,4 +10,15 @@
 @import './base/reset';
 
 @import 
-    './pages/client';
+    './layouts/navigation';
+
+@import 
+    './pages/client',
+    './pages/services',
+    './pages/landing/section1',
+    './pages/landing/section2',
+    './pages/landing/services_card',
+    './pages/landing/partials/loader',
+    './pages/landing/partials/button',
+    './pages/landing/index',
+    './pages/landing/roadmap';

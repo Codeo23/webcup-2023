@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { App } from './core/router';
 import { Provider } from 'react-redux';
 import store from './core/store';
+import './core/translations/i18n'
+import '@fontsource/poppins';
+import 'react-vertical-timeline-component/style.min.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <Suspense fallback="...loading">
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </Suspense>
   </React.StrictMode>
 );
 

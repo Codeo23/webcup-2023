@@ -1,0 +1,197 @@
+.services {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    max-width: 1440px;
+    margin: auto;
+
+    &-back {
+        height: 80vh;
+        opacity: 0.15;
+        position: absolute;
+        right: 0;
+        bottom: 0;   
+        mix-blend-mode: luminosity; 
+    }
+
+
+    .textarea-wrapper {
+        @include theme-aware("background", "secondary-color");
+        box-shadow: 5px 5px 100px black;
+        border-radius: 5px;
+        display: flex;
+        align-items: end;
+        padding: 0 20px 10px;
+
+        .textarea-actions {
+            display: flex;
+            column-gap: 10px;
+
+            button {
+                background-color: #421A49;
+                @include theme-aware("color", "text-color2");
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+            }
+        }
+    }
+    .textarea {
+        resize: none;
+        @include theme-aware("color", "text-color2");
+        @include theme-aware("background", "secondary-color");
+        outline: none;
+        max-height: 200px;
+        padding: 10px 20px 10px 0;
+        font-size: $font-small;
+        border-radius: 5px;
+
+        &::placeholder {
+            @include theme-aware("color", "text-color2");
+
+        }
+    }
+
+    .ellipse {
+        position: absolute;
+        height: 1000px;
+        width: 1000px;
+        border-radius: 50%;
+        background-color: #220101;
+        right: -700px;
+  
+        filter: blur(200px);
+    }
+
+    .image-none {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20vh;
+        .text-logo {
+            width: 40vh;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 20px;
+            span {
+                position: relative;
+                &::before {
+                    content: " ";
+                    position: absolute;
+                    width: 100px;
+                    height: 3px;
+                    background-color: #CB4946;
+                    bottom: -3px;
+                }
+            }
+        }
+        .textarea-wrapper {
+            margin-top: 50px;
+            width: 60%;
+        }
+    }
+
+    .image-question {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+
+        .video {
+            position: relative;
+
+            video {
+                width: 80%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                bottom: 0;
+            }
+        }
+
+        .right {
+            padding: 100px 50px 20px;
+            z-index: 50;
+            .top {
+                height: 20%;
+                .img {
+                    width: 70%;
+                    height: 100%;
+                    padding: 10px;
+                    background-color: rgba(255,255,255,0.06);
+                    border-radius: 5px;
+                    border-width: 1px;
+                    @include theme-aware("border-color", "text-color2");
+                    
+                    img {
+                        object-position: center;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+
+                    &-actions {
+                        margin-top: 5px;
+                        font-size: $font-small;
+                        button {
+                            border-radius: 5px;
+                            padding: 5px 0;
+                            width: 100px;
+                            margin-right: 10px;
+                            &.yes {
+                                background-image:  linear-gradient(#421A49,#CB4946);
+                            }
+                            &.regenerate {
+                                background-color: #421A49;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .predictions {
+                margin: 50px 0;
+                padding-bottom: 10px;
+                
+                &-content {
+                    height: 35vh;
+                    overflow-y: auto;
+                    padding: 15px;
+                    background-color: rgba(255,255,255,0.06);
+                    border-radius: 5px;
+                    border-width: 1px;
+                    @include theme-aware("border-color", "text-color2");
+                    @include theme-aware("color", "text-color2");
+                    font-size: $font-small;
+                    line-height: 20px;
+                }
+                &-actions {
+                    margin-top: 10px;
+                    display: flex;
+                    button{
+                        width: 50px;
+                        height: 50px;
+                        font-size: 30px;
+                        border-radius: 5px;
+                        margin-right: 10px;
+                        @include theme-aware("background-color", "secondary-color");
+                        @include theme-aware("color", "text-color2");
+                    }
+                }
+            }
+
+            .textarea-wrapper {
+                width: 40%;
+                bottom: 20px;
+                position: absolute;
+
+                .textarea {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.navigation {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    backdrop-filter: blur(5px);
+    background-color: rgb(45, 9, 52,0.8);
+
+    &-logo {
+        width: 180px;
+    }
+
+    &-lists,&-language {
+        display: flex;
+        column-gap: 20px;
+        @include theme-aware("color", "text-color2");
+    }
+
+    &-item,&-language {
+    &-lists a{
+        padding: 0 20px 0 20px;
+        transition: 0.5s;
+
+        &:hover {
+            color: #FFF;
+        }
+    }
+
+    &-item {
+        @include theme-aware("color", "text-color2");
+
+        &--active {
+            @include theme-aware("color", "text-color");
+        }
+    }
+}
+}
