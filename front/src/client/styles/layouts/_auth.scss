@@ -1,0 +1,42 @@
+.auth {
+    @include theme-aware('background', 'primary-color');
+    @include theme-aware('color', 'text-color');
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 5000;
+
+    &-logo {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    &-actions {
+        margin-top: 10px;
+        display: flex;
+        font-size: $font-small;
+        justify-content: space-between;
+
+        .input-checkbox {
+            display: flex;
+            align-items: center;
+            column-gap: 5px;
+        }
+    }
+
+    &-btn {
+        background-color: rgb(0, 0, 255);
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+
+    .switch-btn {
+        margin-top: 10px;
+        font-size: $font-small;
+        button {
+            color: rgb(0, 0, 255);
+        }
+    }
+}

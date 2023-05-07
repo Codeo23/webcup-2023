@@ -10,7 +10,9 @@
 @import './base/reset';
 
 @import 
-    './layouts/navigation';
+    './layouts/navigation',
+    './layouts/auth',
+    './layouts/footer';
 
 @import 
     './pages/client',

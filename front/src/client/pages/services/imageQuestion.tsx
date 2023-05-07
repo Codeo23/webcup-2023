@@ -9,6 +9,7 @@ import { UseFormGetValues, UseFormHandleSubmit, UseFormRegister } from 'react-ho
 import { BeatLoader } from 'react-spinners';
 import { TypeAnimation } from 'react-type-animation';
 import useSpeechToText from 'react-hook-speech-to-text';
+import { Login } from '../login';
 
 type Props = {
     onSubmit: (data: FormData) => void,
@@ -19,20 +20,18 @@ type Props = {
 }
 
 export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, loading }: Props) => {
-    const {
-        error,
-        interimResult,
-        isRecording,
-        results,
-        startSpeechToText,
-        stopSpeechToText,
-    } = useSpeechToText({
-        continuous: true,
-        useLegacyResults: false
-    });
+  const [isOpenLogin, setIsOpenLogin] = useState(false)
+    function closeModalLogin() {
+        setIsOpenLogin(false)
+      }
+    
+      function openModalLogin() {
+        setIsOpenLogin(true)
+      }
 
     return (
         <div className='image-question'>
+            <Login isOpen={isOpenLogin} closeModal={closeModalLogin}/>
             <img src='images/back.png' alt='back-services' className='services-back' />
             <div className='video'>
                 <video controls={false} autoPlay loop muted>
@@ -55,17 +54,12 @@ export const ImageQuestion = ({ onSubmit, register, handleSubmit, prediction, lo
                     <div className='predictions-content'>
                         <TypeAnimation sequence={[prediction]} wrapper='p' cursor={true} repeat={0} />
                     </div>
-                    <div className='predictions-actions'>
-                        <button><FontAwesomeIcon icon={faCopy} /></button>
-                        <button><FontAwesomeIcon icon={faSave} /></button>
-                        <button><FontAwesomeIcon icon={faRefresh} /></button>
-                    </div>
                 </div>}
                 <form onSubmit={handleSubmit(onSubmit)} className='textarea-wrapper'>
                     <TextareaAutosize placeholder='Décrivez vos rêves ici' className='textarea' {...register("dream")} />
                     <div className='textarea-actions'>
                         {loading ? <BeatLoader color='#9763A3' size={10} /> : <><button type='submit'><FontAwesomeIcon icon={faPaperPlane} /></button>
-                            <button type='button' onClick={isRecording ? stopSpeechToText : startSpeechToText}><FontAwesomeIcon icon={faMicrophoneAltSlash} /></button></>}
+                            <button type='button' onClick={openModalLogin}><FontAwesomeIcon icon={faSave} /></button></>}
                     </div>
                 </form>
             </div>

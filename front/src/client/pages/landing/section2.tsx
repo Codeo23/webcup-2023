@@ -4,6 +4,7 @@ import { Roadmap } from "./roadmap";
 import { Pricing } from "./pricing";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Footer } from "./footer";
 
 AOS.init();
 
@@ -40,6 +41,7 @@ export const Section2 = (props: Props) => {
       </div>
       <Roadmap />
       <Pricing />
+      <Footer/>
     </div>
   )
 }
