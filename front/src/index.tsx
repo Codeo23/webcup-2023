@@ -7,6 +7,7 @@ import store from './core/store';
 import './core/translations/i18n'
 import '@fontsource/poppins';
 import 'react-vertical-timeline-component/style.min.css';
+import "./client/constants/turn"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
