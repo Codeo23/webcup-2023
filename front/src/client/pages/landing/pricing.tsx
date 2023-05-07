@@ -7,56 +7,47 @@ type Props = {}
 export const Pricing = (props: Props) => {
     return (
         <section className='pricing'>
-           <h2 className='title-section'>Découvrez nos tarifs <br/>de consultation d'un professionel</h2>
+           <h2 className='title-section'>Entre rêves et des cauchemars</h2>
             <div className='pricing-card'>
                 <div className='icones'>
                     <div className='first'></div>
                     <div className='second'></div>
-                    <div className='icone'><div className='icone-wrapper'>
-                    <FontAwesomeIcon icon={faDollar}/></div></div>
+                    <div className='icone'><div className='icone-wrapper'></div></div>
                     <div className='third'></div>
                     <div className='fourth'></div>
                 </div>
-                <h1 className='title'>Select your Plan</h1>
-                <p className='desc'>Séléctionnez le tarif qui vous correspond.<br/> et après veuillez le confirmer!</p>
+                <h1 className='title'>Consulter un professionnel</h1>
+                <p className='desc'>Les cauchemars récurrents peuvent être effrayants et vous empêcher de dormir paisiblement.</p>
                 <div className='tarifs'>
                     <div className='monthly'>
-                        <button>Monthly</button>
+
                         <div className='tarifs-item'>
                             <div><FontAwesomeIcon icon={faCheck}/></div>
-                            <p>Pricing Feature Here</p>
+                            <p>Mais ne laissez pas ces rêves vous hanter</p>
                         </div>
                         <div className='tarifs-item'>
                             <div><FontAwesomeIcon icon={faCheck}/></div>
-                            <p>Pricing Feature Here</p>
+                            <p>Il est temps de prendre soin de vous et de votre sommeil.</p>
                         </div>
                         <div className='tarifs-item'>
                             <div><FontAwesomeIcon icon={faCheck}/></div>
-                            <p>Pricing Feature Here</p>
+                            <p>Si vous êtes victime de cauchemars récurrents, il est temps de parler à un professionnel. </p>
                         </div>
                     </div>
 
                     <div className='monthly'>
-                        <button>Monthly</button>
+
                         <div className='tarifs-item'>
                             <div><FontAwesomeIcon icon={faCheck}/></div>
-                            <p>Pricing Feature Here</p>
+                            <p>Ne souffrez pas en silence</p>
                         </div>
                         <div className='tarifs-item'>
                             <div><FontAwesomeIcon icon={faCheck}/></div>
-                            <p>Pricing Feature Here</p>
-                        </div>
-                        <div className='tarifs-item'>
-                            <div><FontAwesomeIcon icon={faCheck}/></div>
-                            <p>Pricing Feature Here</p>
+                            <p>Prenez rendez-vous dès maintenant et commencez votre voyage vers un sommeil plus serein</p>
                         </div>
                     </div>
                 </div>
 
-                <div className='price'>
-                    <p><span>$48.00</span>/mo</p>
-                    <button>Activer</button>
-                </div>
             </div>
         </section>
     )
