@@ -69,7 +69,6 @@ class Settings(BaseSettings):
 
     class Config:
         env_file = ".env"
-        env_prefix = "BACKEND_"
         env_file_encoding = "utf-8"
 
 
