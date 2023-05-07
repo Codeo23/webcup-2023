@@ -1,27 +1,35 @@
 .navigation {
-    padding: 20px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
     z-index: 100;
     backdrop-filter: blur(5px);
-    background-color: rgb(45, 9, 52,0.8);
+    background-color: rgb(45, 9, 52, 0.8);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+
+    &-content {
+        max-width: 1440px;
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        z-index: 500;
+    }
 
     &-logo {
         width: 180px;
     }
 
-    &-lists,&-language {
+    &-lists,
+    &-language {
         display: flex;
-        column-gap: 20px;
+        column-gap: 30px;
         @include theme-aware("color", "text-color2");
     }
 
-    &-item,&-language {
-    &-lists a{
-        padding: 0 20px 0 20px;
+    a,
+    button {
         transition: 0.5s;
 
         &:hover {
@@ -29,12 +37,55 @@
         }
     }
 
-    &-item {
+    &-item,
+    &-language {
         @include theme-aware("color", "text-color2");
 
         &--active {
             @include theme-aware("color", "text-color");
         }
     }
-}
+
+    .btn-menu {
+        display: none;
+        font-size: 20px;
+    }
+
+    &-small {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        @include theme-aware("background-color", "primary-color");
+        @include theme-aware("color", "text-color");
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 5px;
+
+        &.hide {
+            position: inherit;
+            display: none;
+        }
+    }
+
+    @media (max-width: 900px) {
+
+        &-lists,
+        &-language {
+            display: none;
+        }
+
+        .btn-menu {
+            display: block;
+        }
+
+        &-small {
+            display: inherit;
+        }
+    }
 }

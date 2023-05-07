@@ -1,0 +1,111 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+
+    .title-section {
+        font-size: 40px;
+        text-align: center;
+        padding: 20px 50px;
+    }
+
+    &-card {
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px 30px;
+        border: 1px solid rgba(0, 0, 0, 0.089);
+
+        .icones {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            column-gap: 10px;
+
+            .first,
+            .fourth {
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.342);
+            }
+
+            .second,
+            .third {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.342);
+            }
+
+            .icone {
+                height: 70px;
+                width: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.342);
+
+                &-wrapper {
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    background-color: rgba(255, 255, 255, 0.459);
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.342);
+                }
+                svg {
+                    font-size: 30px;
+                }
+            }
+        }
+        
+        .title {
+            margin-top: 20px;
+            font-size: 30px;
+        }
+
+        .desc {
+            font-size: $font-small;
+            margin-bottom: 30px;
+        }
+
+        .tarifs {
+            padding: 30px 0;
+            border-top: 1px solid rgba(0, 0, 0, 0.158);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 20px;
+
+            &-item {
+                font-size: $font-small;
+                display: flex;
+                margin: 10px 0;
+                column-gap: 10px;
+
+                div {
+                    background-color: blue;
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+
+                }
+            }
+        }
+
+        .price {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
