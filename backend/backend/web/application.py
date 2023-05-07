@@ -2,6 +2,7 @@ from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.responses import UJSONResponse
+from fastapi.staticfiles import StaticFiles
 
 from backend.settings import settings
 from backend.web.api.router import api_router
@@ -34,5 +35,8 @@ def get_app() -> FastAPI:
 
     # Main router for the API.
     app.include_router(router=api_router, prefix="/api")
+    
+    # mount static files
+    app.mount("/static", StaticFiles(directory="backend/static"), name="static")
 
     return app

@@ -1,3 +1,4 @@
+import backend.web.api
 from typing import List, Optional
 
 from fastapi import Depends
@@ -30,10 +31,11 @@ class HistoryDAO:
         """
         
         history = HistoryModel(dream=dream, interpretation=interpretation, user_id=user_id)
-        
+                
         self.session.add(history)
+        await self.session.commit()
         
-        # append the dream to the user's history
+        # append the dream to the user's dream history
         self.session.add(UserHistory(user_id=user_id, history_id=history.id))
         
 
