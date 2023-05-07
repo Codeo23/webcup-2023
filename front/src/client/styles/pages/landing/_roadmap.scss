@@ -1,3 +1,13 @@
 .roadmap {
     margin-top: 50px;
 }
+
+.vertical-timeline-element-title {
+    @include theme-aware("color", "text-color3");
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.vertical-timeline-element-subtitle,p {
+    color: #b78fc0;
+}

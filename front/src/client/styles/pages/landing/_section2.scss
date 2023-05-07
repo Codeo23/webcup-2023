@@ -1,8 +1,9 @@
 .service_container {
-    background-color: #1B0420;
+    @include theme-aware("background-color", "background-color-landing");
     position: relative;
     padding: 0 50px 50px;
     width: 100%;
+    
 
     h1 {
         font-size: 90px;
@@ -42,6 +43,7 @@
                 font-size: 54px;
                 font-weight: bold;
                 letter-spacing: 0.2rem;
+                @include theme-aware("color", "text-color3");
             }
     
             h3 {
@@ -52,6 +54,45 @@
             }
         }
     
+    }
+    .tertiaire_services {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        gap: 1px;
+    
+        img {
+            position: relative;
+            width: 600px;
+            left: 12rem;
+        }
+
+        .next_services{
+            position: relative;
+                top: 16rem;
+                right: 12rem;
+                text-align: right;
+
+                h4 {
+                    font-size: 18px;
+                    letter-spacing: 0.2rem;
+                    color: #fc8600;
+                }
+        
+                h2 {
+                    font-size: 34px;
+                    font-weight: bold;
+                    letter-spacing: 0.2rem;
+                    @include theme-aware("color", "text-color3");
+                }
+        
+                h3 {
+                    font-size: 18px;
+                    font-weight: lighter;
+                    color: #b78fc0;
+        
+                }
+        }
     }
 }
 

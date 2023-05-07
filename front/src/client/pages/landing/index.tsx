@@ -28,6 +28,8 @@ export const Landing = (props: Props) => {
         <div></div>
         <div></div>
       </div>
+      <div className='chatbot'><iframe width="100%" height="100%" src="https://4e57-197-149-23-4.ngrok-free.app/" title="Embedded Website" /></div>
+
       <div className='main_container'>
         <Navigation />
         <div className='fixed-section'>

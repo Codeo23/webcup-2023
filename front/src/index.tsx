@@ -6,7 +6,6 @@ import { Provider } from 'react-redux';
 import store from './core/store';
 import '@fontsource/poppins';
 import 'react-vertical-timeline-component/style.min.css';
-import "./client/constants/turn"
 import './core/translations/i18n'
 
 const root = ReactDOM.createRoot(
